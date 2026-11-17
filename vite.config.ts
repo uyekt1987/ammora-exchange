@@ -1,1 +1,10 @@
-aW1wb3J0IHJlYWN0IGZyb20gJ0B2aXRlanMvcGx1Z2luLXJlYWN0JwppbXBvcnQgeyBkZWZpbmVDb25maWcgfSBmcm9tICd2aXRlJwoKLy8gaHR0cHM6Ly92aXRlLmRldi9jb25maWcvCi8vIEZvciBHaXRIdWIgUGFnZXMgcHJvamVjdCBzaXRlcyAoaHR0cHM6Ly88dXNlcj4uZ2l0aHViLmlvLzxyZXBvPi8pLCBidWlsZCB3aXRoCi8vIFZJVEVfQkFTRT0vPHJlcG8+LyBzbyBhc3NldCBVUkxzIHJlc29sdmUuIExvY2FsIGRldi9wcmV2aWV3IHVzZXMgIi8iLgpleHBvcnQgZGVmYXVsdCBkZWZpbmVDb25maWcoewogIHBsdWdpbnM6IFtyZWFjdCgpXSwKICBiYXNlOiBwcm9jZXNzLmVudi5WSVRFX0JBU0UgfHwgJy8nLAp9KQo=
+import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite'
+
+// https://vite.dev/config/
+// For GitHub Pages project sites (https://<user>.github.io/<repo>/), build with
+// VITE_BASE=/<repo>/ so asset URLs resolve. Local dev/preview uses "/".
+export default defineConfig({
+  plugins: [react()],
+  base: process.env.VITE_BASE || '/',
+})
