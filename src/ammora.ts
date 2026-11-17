@@ -1,1 +1,247 @@
-LyoqCiAqIEFtbW9yYSBTREsgd2lyaW5nIGZvciB0aGUgR0lXQSBTZXBvbGlhIHRlc3RuZXQgc3dhcCBVSS4KICoKICogQ2hhaW46IEdJV0EgU2Vwb2xpYSwgY2hhaW4gaWQgOTEzNDIsIFJQQyBodHRwczovL3NlcG9saWEtcnBjLmdpd2EuaW8uCiAqIEV2ZXJ5dGhpbmcgaGVyZSBpcyB0ZXN0bmV0LiBObyBwcml2YXRlIGtleSBpcyBldmVyIHVzZWQ6IHJlYWRzIGdvIHRocm91Z2gKICogdGhlIHB1YmxpYyBSUEMsIHdyaXRlcyBnbyB0aHJvdWdoIHRoZSB1c2VyJ3Mgb3duIGluamVjdGVkIHdhbGxldAogKiAoTWV0YU1hc2spIHZpYSB2aWVtLiBOZXZlciBwYXN0ZSBhIHNlZWQgcGhyYXNlIG9yIHByaXZhdGUga2V5IGFueXdoZXJlLgogKgogKiBWZXJpZmllZCAyMDI2LTExLTE3IChwcm9iZSBzY3JpcHRzIGluIC90bXAvYW1tb3JhLXByb2JlKToKICogLSBBbW1vcmFTd2FwQ2xpZW50IE1VU1QgYmUgY3JlYXRlZCB3aXRoIGZhY3RvcnlQcm9maWxlczoKICogICBnaXdhU2Vwb2xpYUF1dG9Sb3V0ZVBvb2xQcm9maWxlcywgb3RoZXJ3aXNlIHRoZSBjb25jZW50cmF0ZWQgcG9vbAogKiAgIGZhY3RvcnkgaXMgcmVwb3J0ZWQgYXMgInVuc3VwcG9ydGVkIiBhbmQgcXVvdGVzIGZhaWwuCiAqIC0gUG9vbCAweEQ5MTJGYTE4MDYxRTU2NjUxMzZBRTVkQmMwMDJhRGEwZmMwRDNjMjggaXMgYSAiY29uY2VudHJhdGVkIgogKiAgIFdFVEgvS0dQVCBwb29sLiBJdCBpcyBsaXZlIChpc0FjdGl2ZSkgYnV0IFRISU46IH4wLjAwMSBXRVRIIGFuZAogKiAgIH4xMCBLR1BUIGluIHJlc2VydmUuIFN3YXBzIG11c3QgYmUgc21hbGwgb3IgdGhlIFNESyByZWZ1c2VzIHdpdGgKICogICBQcmljZVJhbmdlVmlvbGF0aW9uLiBBIDAuMDAwMDAxIFdFVEggc3dhcCBxdW90ZXMgZmluZS4KICogLSBOYXRpdmUgRVRIIGlucHV0IHdvcmtzOiB0b2tlbkluID0gV0VUSCBhZGRyZXNzLCBpbnB1dEFzc2V0ICJuYXRpdmUiLAogKiAgIGFwcHJvdmFscyA9IDAsIHZhbHVlID0gYW1vdW50SW4sIHR4IGdvZXMgdG8gdGhlIG5hdGl2ZSByb3V0ZXIuCiAqLwppbXBvcnQgewogIEFtbW9yYVN3YXBDbGllbnQsCiAgZ2l3YVNlcG9saWFBdXRvUm91dGVEZXBsb3ltZW50LAogIGdpd2FTZXBvbGlhQXV0b1JvdXRlUG9vbFByb2ZpbGVzLAogIHR5cGUgU2FmZVN3YXBTdGF0dXMsCn0gZnJvbSAiQGFtbW9yYS1wcm90b2NvbC9zZGsiOwppbXBvcnQgewogIGNyZWF0ZVB1YmxpY0NsaWVudCwKICBjcmVhdGVXYWxsZXRDbGllbnQsCiAgY3VzdG9tLAogIGh0dHAsCiAgcGFyc2VBYmksCiAgdHlwZSBBZGRyZXNzLAogIHR5cGUgUHVibGljQ2xpZW50LAogIHR5cGUgV2FsbGV0Q2xpZW50LAp9IGZyb20gInZpZW0iOwoKZXhwb3J0IGNvbnN0IENIQUlOX0lEID0gOTEzNDI7CmV4cG9ydCBjb25zdCBDSEFJTl9OQU1FID0gIkdJV0EgU2Vwb2xpYSI7Ci8qKiBPdmVycmlkYWJsZSBmb3IgbG9jYWwgdmVyaWZpY2F0aW9uIChWSVRFX0FNTU9SQV9SUENfVVJMKS4gRGVmYXVsdHMgdG8gdGhlIHB1YmxpYyBHSVdBIFJQQy4gKi8KZXhwb3J0IGNvbnN0IFJQQ19VUkwgPSBpbXBvcnQubWV0YS5lbnYuVklURV9BTU1PUkFfUlBDX1VSTCB8fCAiaHR0cHM6Ly9zZXBvbGlhLXJwYy5naXdhLmlvIjsKZXhwb3J0IGNvbnN0IEVYUExPUkVSX1VSTCA9ICJodHRwczovL3NlcG9saWEtZXhwbG9yZXIuZ2l3YS5pbyI7CmV4cG9ydCBjb25zdCBGQVVDRVRfVVJMID0gImh0dHBzOi8vZmF1Y2V0Lmdpd2EuaW8iOwpleHBvcnQgY29uc3QgRkFVQ0VUX0JBQ0tVUF9VUkwgPSAiaHR0cHM6Ly9mYXVjZXQubGFtYmRhMjU2LmlvL2dpd2Etc2Vwb2xpYSI7CmV4cG9ydCBjb25zdCBTREtfVkVSU0lPTiA9ICIwLjMuOSI7CgpleHBvcnQgY29uc3QgUE9PTF9BRERSRVNTID0gIjB4RDkxMkZhMTgwNjFFNTY2NTEzNkFFNWRCYzAwMmFEYTBmYzBEM2MyOCIgYXMgQWRkcmVzczsKZXhwb3J0IGNvbnN0IFBPT0xfTU9ERUwgPSAiY29uY2VudHJhdGVkIiBhcyBjb25zdDsKCi8qKiBXRVRIIG9uIEdJV0EgU2Vwb2xpYSAod3JhcHBlZCBuYXRpdmUsIGFsc28gdGhlIHBvb2wgcXVvdGUgdG9rZW4pLiAqLwpleHBvcnQgY29uc3QgV0VUSF9BRERSRVNTID0gIjB4NDIwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwNiIgYXMgQWRkcmVzczsKLyoqIEtHUFQsICJLb3JlYW4gR3VpZGUgUGFydG5lciBUZXN0IiAoOSBkZWNpbWFscyksIHRoZSBwb29sIGJhc2UgdG9rZW4uICovCmV4cG9ydCBjb25zdCBLR1BUX0FERFJFU1MgPSAiMHhlRkQwYjc0Y0I3MzM1MzRENjU1NDg5NGMwRmRGNTkzMWE3MTFCQ0ZCIiBhcyBBZGRyZXNzOwoKZXhwb3J0IHR5cGUgVG9rZW5JZCA9ICJFVEgiIHwgIldFVEgiIHwgIktHUFQiOwoKZXhwb3J0IGludGVyZmFjZSBUb2tlbkluZm8gewogIGlkOiBUb2tlbklkOwogIHN5bWJvbDogc3RyaW5nOwogIG5hbWU6IHN0cmluZzsKICBkZWNpbWFsczogbnVtYmVyOwogIC8qKiBFUkMyMCBhZGRyZXNzOyBudWxsIGZvciB0aGUgbmF0aXZlIHRva2VuLiAqLwogIGFkZHJlc3M6IEFkZHJlc3MgfCBudWxsOwogIC8qKiBUcnVlIHdoZW4gdGhlIHRva2VuIGlzIHBhaWQgYXMgbmF0aXZlIEVUSCAoaW5wdXRBc3NldCAibmF0aXZlIikuICovCiAgbmF0aXZlOiBib29sZWFuOwp9CgpleHBvcnQgY29uc3QgVE9LRU5TOiBSZWNvcmQ8VG9rZW5JZCwgVG9rZW5JbmZvPiA9IHsKICBFVEg6IHsgaWQ6ICJFVEgiLCBzeW1ib2w6ICJFVEgiLCBuYW1lOiAiRXRoZXIgKHRlc3RuZXQpIiwgZGVjaW1hbHM6IDE4LCBhZGRyZXNzOiBudWxsLCBuYXRpdmU6IHRydWUgfSwKICBXRVRIOiB7IGlkOiAiV0VUSCIsIHN5bWJvbDogIldFVEgiLCBuYW1lOiAiV3JhcHBlZCBFdGhlciIsIGRlY2ltYWxzOiAxOCwgYWRkcmVzczogV0VUSF9BRERSRVNTLCBuYXRpdmU6IGZhbHNlIH0sCiAgS0dQVDogeyBpZDogIktHUFQiLCBzeW1ib2w6ICJLR1BUIiwgbmFtZTogIktvcmVhbiBHdWlkZSBQYXJ0bmVyIFRlc3QiLCBkZWNpbWFsczogOSwgYWRkcmVzczogS0dQVF9BRERSRVNTLCBuYXRpdmU6IGZhbHNlIH0sCn07CgovKiogVGhlIHRva2VuIHBhaXJzIHRoaXMgcG9vbCBzdXBwb3J0cywgaW4gKHBheSAtPiByZWNlaXZlKSBvcmRlci4gKi8KZXhwb3J0IGNvbnN0IFBBSVJTOiBBcnJheTx7IHBheTogVG9rZW5JZDsgcmVjZWl2ZTogVG9rZW5JZCB9PiA9IFsKICB7IHBheTogIkVUSCIsIHJlY2VpdmU6ICJLR1BUIiB9LAogIHsgcGF5OiAiV0VUSCIsIHJlY2VpdmU6ICJLR1BUIiB9LAogIHsgcGF5OiAiS0dQVCIsIHJlY2VpdmU6ICJXRVRIIiB9LApdOwoKZXhwb3J0IGNvbnN0IERFRkFVTFRfU0xJUFBBR0VfQlBTID0gNTA7CgpleHBvcnQgY29uc3QgZ2l3YVNlcG9saWFDaGFpbiA9IHsKICBpZDogQ0hBSU5fSUQsCiAgbmFtZTogQ0hBSU5fTkFNRSwKICBuYXRpdmVDdXJyZW5jeTogeyBuYW1lOiAiRXRoZXIiLCBzeW1ib2w6ICJFVEgiLCBkZWNpbWFsczogMTggfSwKICBycGNVcmxzOiB7IGRlZmF1bHQ6IHsgaHR0cDogW1JQQ19VUkxdIH0gfSwKICBibG9ja0V4cGxvcmVyczogeyBkZWZhdWx0OiB7IG5hbWU6ICJHSVdBIFNlcG9saWEgRXhwbG9yZXIiLCB1cmw6IEVYUExPUkVSX1VSTCB9IH0sCn0gYXMgY29uc3Q7CgpsZXQgcHVibGljQ2xpZW50OiBQdWJsaWNDbGllbnQgfCBudWxsID0gbnVsbDsKZXhwb3J0IGZ1bmN0aW9uIGdldFB1YmxpY0NsaWVudCgpOiBQdWJsaWNDbGllbnQgewogIGlmICghcHVibGljQ2xpZW50KSB7CiAgICBwdWJsaWNDbGllbnQgPSBjcmVhdGVQdWJsaWNDbGllbnQoewogICAgICBjaGFpbjogZ2l3YVNlcG9saWFDaGFpbiwKICAgICAgdHJhbnNwb3J0OiBodHRwKFJQQ19VUkwpLAogICAgfSk7CiAgfQogIHJldHVybiBwdWJsaWNDbGllbnQ7Cn0KCmxldCBzd2FwQ2xpZW50OiBBbW1vcmFTd2FwQ2xpZW50IHwgbnVsbCA9IG51bGw7CmV4cG9ydCBhc3luYyBmdW5jdGlvbiBnZXRTd2FwQ2xpZW50KCk6IFByb21pc2U8QW1tb3JhU3dhcENsaWVudD4gewogIGlmICghc3dhcENsaWVudCkgewogICAgc3dhcENsaWVudCA9IGF3YWl0IEFtbW9yYVN3YXBDbGllbnQuY3JlYXRlKGdldFB1YmxpY0NsaWVudCgpLCB7CiAgICAgIGRlcGxveW1lbnRDYXRhbG9nOiB7IFtDSEFJTl9JRF06IGdpd2FTZXBvbGlhQXV0b1JvdXRlRGVwbG95bWVudCB9LAogICAgICBmYWN0b3J5UHJvZmlsZXM6IGdpd2FTZXBvbGlhQXV0b1JvdXRlUG9vbFByb2ZpbGVzLAogICAgfSk7CiAgfQogIHJldHVybiBzd2FwQ2xpZW50Owp9Cgpjb25zdCBlcmMyMEFiaSA9IHBhcnNlQWJpKFsKICAiZnVuY3Rpb24gYmFsYW5jZU9mKGFkZHJlc3Mgb3duZXIpIHZpZXcgcmV0dXJucyAodWludDI1NikiLAogICJmdW5jdGlvbiBzeW1ib2woKSB2aWV3IHJldHVybnMgKHN0cmluZykiLAogICJmdW5jdGlvbiBkZWNpbWFscygpIHZpZXcgcmV0dXJucyAodWludDgpIiwKICAiZnVuY3Rpb24gYXBwcm92ZShhZGRyZXNzIHNwZW5kZXIsIHVpbnQyNTYgYW1vdW50KSByZXR1cm5zIChib29sKSIsCl0pOwoKZXhwb3J0IGludGVyZmFjZSBCYWxhbmNlcyB7CiAgZXRoOiBiaWdpbnQ7CiAgd2V0aDogYmlnaW50OwogIGtncHQ6IGJpZ2ludDsKfQoKZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIGdldEJhbGFuY2VzKG93bmVyOiBBZGRyZXNzKTogUHJvbWlzZTxCYWxhbmNlcz4gewogIGNvbnN0IGNsaWVudCA9IGdldFB1YmxpY0NsaWVudCgpOwogIGNvbnN0IFtldGgsIHdldGgsIGtncHRdID0gYXdhaXQgUHJvbWlzZS5hbGwoWwogICAgY2xpZW50LmdldEJhbGFuY2UoeyBhZGRyZXNzOiBvd25lciB9KSwKICAgIGNsaWVudC5yZWFkQ29udHJhY3QoeyBhZGRyZXNzOiBXRVRIX0FERFJFU1MsIGFiaTogZXJjMjBBYmksIGZ1bmN0aW9uTmFtZTogImJhbGFuY2VPZiIsIGFyZ3M6IFtvd25lcl0gfSksCiAgICBjbGllbnQucmVhZENvbnRyYWN0KHsgYWRkcmVzczogS0dQVF9BRERSRVNTLCBhYmk6IGVyYzIwQWJpLCBmdW5jdGlvbk5hbWU6ICJiYWxhbmNlT2YiLCBhcmdzOiBbb3duZXJdIH0pLAogIF0pOwogIHJldHVybiB7IGV0aCwgd2V0aCwga2dwdCB9Owp9CgpleHBvcnQgaW50ZXJmYWNlIFF1b3RlUmVxdWVzdCB7CiAgcGF5OiBUb2tlbklkOwogIHJlY2VpdmU6IFRva2VuSWQ7CiAgLyoqIFJhdyBhbW91bnQgaW4gdGhlIHBheSB0b2tlbidzIHNtYWxsZXN0IHVuaXQuICovCiAgYW1vdW50SW46IGJpZ2ludDsKICBwYXllcjogQWRkcmVzczsKICBzbGlwcGFnZUJwczogbnVtYmVyOwp9CgpleHBvcnQgdHlwZSBQcmVwYXJlZFN3YXAgPSBBd2FpdGVkPFJldHVyblR5cGU8QW1tb3JhU3dhcENsaWVudFsicHJlcGFyZUV4YWN0SW4iXT4+OwoKLyoqCiAqIEJ1aWxkIGEgbGl2ZSBxdW90ZSB3aXRoIHRoZSBBbW1vcmEgU0RLLiBSZXR1cm5zIHRoZSBwcmVwYXJlZCBzd2FwLCB3aG9zZQogKiBgLnF1b3RlYCBob2xkcyBleHBlY3RlZC9taW5pbXVtIG91dHB1dCwgZmVlIGFuZCBwcmljZSBpbXBhY3QsIGFuZCB3aG9zZQogKiBgLmV4ZWN1dGUod2FsbGV0KWAgc2VuZHMgdGhlIGFwcHJvdmFsIChpZiBhbnkpIGFuZCB0aGUgc3dhcC4KICogVGhyb3dzIHRoZSBTREsgZXJyb3Igd2hlbiB0aGUgcG9vbCBjYW5ub3QgcXVvdGUgKGZvciBleGFtcGxlCiAqIFByaWNlUmFuZ2VWaW9sYXRpb24gd2hlbiB0aGUgYW1vdW50IGlzIHRvbyBsYXJnZSBmb3IgcG9vbCBsaXF1aWRpdHkpLgogKi8KZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHByZXBhcmVRdW90ZShyZXE6IFF1b3RlUmVxdWVzdCk6IFByb21pc2U8UHJlcGFyZWRTd2FwPiB7CiAgY29uc3Qgc3dhcHMgPSBhd2FpdCBnZXRTd2FwQ2xpZW50KCk7CiAgY29uc3QgcGF5VG9rZW4gPSBUT0tFTlNbcmVxLnBheV07CiAgY29uc3QgdG9rZW5JbiA9IHBheVRva2VuLm5hdGl2ZSA/IFdFVEhfQUREUkVTUyA6IChwYXlUb2tlbi5hZGRyZXNzIGFzIEFkZHJlc3MpOwogIHJldHVybiBzd2Fwcy5wcmVwYXJlRXhhY3RJbih7CiAgICBtb2RlbDogUE9PTF9NT0RFTCwKICAgIHBvb2w6IFBPT0xfQUREUkVTUywKICAgIHRva2VuSW4sCiAgICBpbnB1dEFzc2V0OiBwYXlUb2tlbi5uYXRpdmUgPyAibmF0aXZlIiA6ICJlcmMyMCIsCiAgICBhbW91bnRJbjogcmVxLmFtb3VudEluLAogICAgcGF5ZXI6IHJlcS5wYXllciwKICAgIHJlY2lwaWVudDogcmVxLnBheWVyLAogICAgc2xpcHBhZ2VCcHM6IHJlcS5zbGlwcGFnZUJwcywKICAgIGV4ZWN1dGlvbk1vZGU6ICJkaXJlY3Qtd2FsbGV0IiwKICB9KTsKfQoKZXhwb3J0IGludGVyZmFjZSBXYWxsZXRDb25uZWN0aW9uIHsKICB3YWxsZXRDbGllbnQ6IFdhbGxldENsaWVudDsKICBhZGRyZXNzOiBBZGRyZXNzOwogIGNoYWluSWQ6IG51bWJlcjsKfQoKLyoqIENvbm5lY3QgTWV0YU1hc2sgKG9yIGFueSBpbmplY3RlZCB3YWxsZXQpIGFuZCBzd2l0Y2ggaXQgdG8gR0lXQSBTZXBvbGlhLiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gY29ubmVjdFdhbGxldCgpOiBQcm9taXNlPFdhbGxldENvbm5lY3Rpb24+IHsKICBjb25zdCBldGggPSAod2luZG93IGFzIHVua25vd24gYXMgeyBldGhlcmV1bT86IHVua25vd24gfSkuZXRoZXJldW07CiAgaWYgKCFldGgpIHRocm93IG5ldyBFcnJvcigiTk9fV0FMTEVUIik7CiAgY29uc3Qgd2FsbGV0Q2xpZW50ID0gY3JlYXRlV2FsbGV0Q2xpZW50KHsKICAgIGNoYWluOiBnaXdhU2Vwb2xpYUNoYWluLAogICAgdHJhbnNwb3J0OiBjdXN0b20oZXRoIGFzIG5ldmVyKSwKICB9KTsKICBjb25zdCBbYWRkcmVzc10gPSBhd2FpdCB3YWxsZXRDbGllbnQucmVxdWVzdEFkZHJlc3NlcygpOwogIGlmICghYWRkcmVzcykgdGhyb3cgbmV3IEVycm9yKCJOT19BQ0NPVU5UIik7CiAgbGV0IGNoYWluSWQgPSBhd2FpdCB3YWxsZXRDbGllbnQuZ2V0Q2hhaW5JZCgpOwogIGlmIChjaGFpbklkICE9PSBDSEFJTl9JRCkgewogICAgdHJ5IHsKICAgICAgYXdhaXQgd2FsbGV0Q2xpZW50LnN3aXRjaENoYWluKHsgaWQ6IENIQUlOX0lEIH0pOwogICAgfSBjYXRjaCAoZSkgewogICAgICBjb25zdCBlcnIgPSBlIGFzIHsgY29kZT86IG51bWJlciB9OwogICAgICAvLyA0OTAyID0gY2hhaW4gbm90IGFkZGVkIHRvIHRoZSB3YWxsZXQgeWV0LgogICAgICBpZiAoZXJyICYmIGVyci5jb2RlID09PSA0OTAyKSB7CiAgICAgICAgYXdhaXQgd2FsbGV0Q2xpZW50LmFkZENoYWluKHsgY2hhaW46IGdpd2FTZXBvbGlhQ2hhaW4gfSk7CiAgICAgICAgYXdhaXQgd2FsbGV0Q2xpZW50LnN3aXRjaENoYWluKHsgaWQ6IENIQUlOX0lEIH0pOwogICAgICB9IGVsc2UgewogICAgICAgIHRocm93IGU7CiAgICAgIH0KICAgIH0KICAgIGNoYWluSWQgPSBhd2FpdCB3YWxsZXRDbGllbnQuZ2V0Q2hhaW5JZCgpOwogIH0KICByZXR1cm4geyB3YWxsZXRDbGllbnQsIGFkZHJlc3MsIGNoYWluSWQgfTsKfQoKLyoqIFJ1biBhIHByZXBhcmVkIHN3YXAgdGhyb3VnaCB0aGUgdXNlcidzIHdhbGxldC4gSGFuZGxlcyBFUkMyMCBhcHByb3ZhbCBmaXJzdCB3aGVuIHJlcXVpcmVkLiAqLwpleHBvcnQgYXN5bmMgZnVuY3Rpb24gZXhlY3V0ZVN3YXAoCiAgcHJlcGFyZWQ6IFByZXBhcmVkU3dhcCwKICB3YWxsZXRDbGllbnQ6IFdhbGxldENsaWVudCwKICBvblN0YXR1cz86IChzdGF0dXM6IFNhZmVTd2FwU3RhdHVzKSA9PiB2b2lkLAopIHsKICByZXR1cm4gcHJlcGFyZWQuZXhlY3V0ZSh3YWxsZXRDbGllbnQsIHsgYXV0b1JlZnJlc2g6IHRydWUsIG9uU3RhdHVzIH0pOwp9CgovKiogSHVtYW4tcmVhZGFibGUgbWVzc2FnZSBmb3IgdGhlIGVycm9ycyB0aGUgU0RLIGFuZCB3YWxsZXQgc3VyZmFjZS4gKi8KZXhwb3J0IGZ1bmN0aW9uIGZyaWVuZGx5RXJyb3IoZTogdW5rbm93bik6IHN0cmluZyB7CiAgY29uc3QgbXNnID0gZSBpbnN0YW5jZW9mIEVycm9yID8gZS5tZXNzYWdlIDogU3RyaW5nKGUpOwogIGlmIChtc2cuaW5jbHVkZXMoIk5PX1dBTExFVCIpKSByZXR1cm4gIk5vIHdhbGxldCBmb3VuZC4gSW5zdGFsbCBNZXRhTWFzayAob3IgYW5vdGhlciBFVk0gd2FsbGV0KSBhbmQgdHJ5IGFnYWluLiI7CiAgaWYgKG1zZy5pbmNsdWRlcygiTk9fQUNDT1VOVCIpKSByZXR1cm4gIk5vIGFjY291bnQgY29ubmVjdGVkLiBVbmxvY2sgTWV0YU1hc2sgYW5kIGNvbm5lY3QgYW4gYWNjb3VudC4iOwogIGlmIChtc2cuaW5jbHVkZXMoIlByaWNlUmFuZ2VWaW9sYXRpb24iKSkgcmV0dXJuICJBbW91bnQgdG9vIGxhcmdlIGZvciB0aGlzIHBvb2wncyBsaXF1aWRpdHkuIFRyeSBhIG11Y2ggc21hbGxlciBhbW91bnQgKHRoZSBwb29sIG9ubHkgaG9sZHMgfjAuMDAxIFdFVEgpLiI7CiAgaWYgKG1zZy5pbmNsdWRlcygibm8gcmV2aWV3ZWQgZXhhY3QtaW5wdXQgcm91dGUiKSkgcmV0dXJuICJObyByb3V0ZSBpcyBhdmFpbGFibGUgZm9yIHRoaXMgcGFpciByaWdodCBub3cuIjsKICBpZiAobXNnLmluY2x1ZGVzKCJVc2VyIHJlamVjdGVkIikgfHwgbXNnLmluY2x1ZGVzKCJ1c2VyIHJlamVjdGVkIikgfHwgbXNnLmluY2x1ZGVzKCJVc2VyIGRlbmllZCIpKSByZXR1cm4gIlRyYW5zYWN0aW9uIHJlamVjdGVkIGluIHlvdXIgd2FsbGV0LiI7CiAgaWYgKG1zZy5pbmNsdWRlcygiaW5zdWZmaWNpZW50IGZ1bmRzIikgfHwgbXNnLmluY2x1ZGVzKCJJbnN1ZmZpY2llbnQiKSkgcmV0dXJuICJJbnN1ZmZpY2llbnQgYmFsYW5jZSAoY2hlY2sgeW91ciB0b2tlbiBiYWxhbmNlIGFuZCB0ZXN0bmV0IEVUSCBmb3IgZ2FzKS4iOwogIGlmIChtc2cuaW5jbHVkZXMoInVuc3VwcG9ydGVkIikgJiYgbXNnLmluY2x1ZGVzKCJmYWN0b3J5IikpIHJldHVybiAiVGhpcyBwb29sIGlzIG5vdCBpbiB0aGUgcmV2aWV3ZWQgQW1tb3JhIGdlbmVyYXRpb24uIFRoZSBhcHAgb25seSBsaXN0cyB0aGUgdmVyaWZpZWQgV0VUSC9LR1BUIHBvb2wuIjsKICByZXR1cm4gbXNnLmxlbmd0aCA+IDMwMCA/IG1zZy5zbGljZSgwLCAzMDApICsgIi4uLiIgOiBtc2c7Cn0KCi8qKiBGb3JtYXQgYSByYXcgYmlnaW50IGFtb3VudCBpbnRvIGEgaHVtYW4gc3RyaW5nIHdpdGggdXAgdG8gNiBkZWNpbWFscy4gKi8KZXhwb3J0IGZ1bmN0aW9uIGZvcm1hdEFtb3VudChyYXc6IGJpZ2ludCwgZGVjaW1hbHM6IG51bWJlciwgbWF4RGVjaW1hbHMgPSA2KTogc3RyaW5nIHsKICBjb25zdCBuZWcgPSByYXcgPCAwbjsKICBjb25zdCBhYnMgPSBuZWcgPyAtcmF3IDogcmF3OwogIGNvbnN0IGJhc2UgPSAxMG4gKiogQmlnSW50KGRlY2ltYWxzKTsKICBjb25zdCB3aG9sZSA9IGFicyAvIGJhc2U7CiAgY29uc3QgZnJhYyA9IGFicyAlIGJhc2U7CiAgbGV0IGZyYWNTdHIgPSBmcmFjLnRvU3RyaW5nKCkucGFkU3RhcnQoZGVjaW1hbHMsICIwIikuc2xpY2UoMCwgbWF4RGVjaW1hbHMpLnJlcGxhY2UoLzArJC8sICIiKTsKICBjb25zdCBvdXQgPSBmcmFjU3RyID8gYCR7d2hvbGUudG9TdHJpbmcoKX0uJHtmcmFjU3RyfWAgOiB3aG9sZS50b1N0cmluZygpOwogIHJldHVybiBuZWcgPyBgLSR7b3V0fWAgOiBvdXQ7Cn0KCi8qKiBQYXJzZSBhIGh1bWFuIGRlY2ltYWwgc3RyaW5nIGludG8gcmF3IHVuaXRzLiBSZXR1cm5zIG51bGwgd2hlbiBpbnZhbGlkLiAqLwpleHBvcnQgZnVuY3Rpb24gcGFyc2VBbW91bnQoaW5wdXQ6IHN0cmluZywgZGVjaW1hbHM6IG51bWJlcik6IGJpZ2ludCB8IG51bGwgewogIGNvbnN0IHMgPSBpbnB1dC50cmltKCk7CiAgaWYgKCEvXlxkKyhcLlxkKyk/JC8udGVzdChzKSkgcmV0dXJuIG51bGw7CiAgY29uc3QgW3dob2xlLCBmcmFjID0gIiJdID0gcy5zcGxpdCgiLiIpOwogIGlmIChmcmFjLmxlbmd0aCA+IGRlY2ltYWxzKSByZXR1cm4gbnVsbDsKICBjb25zdCByYXcgPSBCaWdJbnQod2hvbGUpICogMTBuICoqIEJpZ0ludChkZWNpbWFscykgKyBCaWdJbnQoZnJhYy5wYWRFbmQoZGVjaW1hbHMsICIwIikgfHwgIjAiKTsKICByZXR1cm4gcmF3Owp9Cg==
+/**
+ * Ammora SDK wiring for the GIWA Sepolia testnet swap UI.
+ *
+ * Chain: GIWA Sepolia, chain id 91342, RPC https://sepolia-rpc.giwa.io.
+ * Everything here is testnet. No private key is ever used: reads go through
+ * the public RPC, writes go through the user's own injected wallet
+ * (MetaMask) via viem. Never paste a seed phrase or private key anywhere.
+ *
+ * Verified 2026-11-17 (probe scripts in /tmp/ammora-probe):
+ * - AmmoraSwapClient MUST be created with factoryProfiles:
+ *   giwaSepoliaAutoRoutePoolProfiles, otherwise the concentrated pool
+ *   factory is reported as "unsupported" and quotes fail.
+ * - Pool 0xD912Fa18061E5665136AE5dBc002aDa0fc0D3c28 is a "concentrated"
+ *   WETH/KGPT pool. It is live (isActive) but THIN: ~0.001 WETH and
+ *   ~10 KGPT in reserve. Swaps must be small or the SDK refuses with
+ *   PriceRangeViolation. A 0.000001 WETH swap quotes fine.
+ * - Native ETH input works: tokenIn = WETH address, inputAsset "native",
+ *   approvals = 0, value = amountIn, tx goes to the native router.
+ */
+import {
+  AmmoraSwapClient,
+  giwaSepoliaAutoRouteDeployment,
+  giwaSepoliaAutoRoutePoolProfiles,
+  type SafeSwapStatus,
+} from "@ammora-protocol/sdk";
+import {
+  createPublicClient,
+  createWalletClient,
+  custom,
+  http,
+  parseAbi,
+  type Address,
+  type PublicClient,
+  type WalletClient,
+} from "viem";
+
+export const CHAIN_ID = 91342;
+export const CHAIN_NAME = "GIWA Sepolia";
+/** Overridable for local verification (VITE_AMMORA_RPC_URL). Defaults to the public GIWA RPC. */
+export const RPC_URL = import.meta.env.VITE_AMMORA_RPC_URL || "https://sepolia-rpc.giwa.io";
+export const EXPLORER_URL = "https://sepolia-explorer.giwa.io";
+export const FAUCET_URL = "https://faucet.giwa.io";
+export const FAUCET_BACKUP_URL = "https://faucet.lambda256.io/giwa-sepolia";
+export const SDK_VERSION = "0.3.9";
+
+export const POOL_ADDRESS = "0xD912Fa18061E5665136AE5dBc002aDa0fc0D3c28" as Address;
+export const POOL_MODEL = "concentrated" as const;
+
+/** WETH on GIWA Sepolia (wrapped native, also the pool quote token). */
+export const WETH_ADDRESS = "0x4200000000000000000000000000000000000006" as Address;
+/** KGPT, "Korean Guide Partner Test" (9 decimals), the pool base token. */
+export const KGPT_ADDRESS = "0xeFD0b74cB733534D6554894c0FdF5931a711BCFB" as Address;
+
+export type TokenId = "ETH" | "WETH" | "KGPT";
+
+export interface TokenInfo {
+  id: TokenId;
+  symbol: string;
+  name: string;
+  decimals: number;
+  /** ERC20 address; null for the native token. */
+  address: Address | null;
+  /** True when the token is paid as native ETH (inputAsset "native"). */
+  native: boolean;
+}
+
+export const TOKENS: Record<TokenId, TokenInfo> = {
+  ETH: { id: "ETH", symbol: "ETH", name: "Ether (testnet)", decimals: 18, address: null, native: true },
+  WETH: { id: "WETH", symbol: "WETH", name: "Wrapped Ether", decimals: 18, address: WETH_ADDRESS, native: false },
+  KGPT: { id: "KGPT", symbol: "KGPT", name: "Korean Guide Partner Test", decimals: 9, address: KGPT_ADDRESS, native: false },
+};
+
+/** The token pairs this pool supports, in (pay -> receive) order. */
+export const PAIRS: Array<{ pay: TokenId; receive: TokenId }> = [
+  { pay: "ETH", receive: "KGPT" },
+  { pay: "WETH", receive: "KGPT" },
+  { pay: "KGPT", receive: "WETH" },
+];
+
+export const DEFAULT_SLIPPAGE_BPS = 50;
+
+export const giwaSepoliaChain = {
+  id: CHAIN_ID,
+  name: CHAIN_NAME,
+  nativeCurrency: { name: "Ether", symbol: "ETH", decimals: 18 },
+  rpcUrls: { default: { http: [RPC_URL] } },
+  blockExplorers: { default: { name: "GIWA Sepolia Explorer", url: EXPLORER_URL } },
+} as const;
+
+let publicClient: PublicClient | null = null;
+export function getPublicClient(): PublicClient {
+  if (!publicClient) {
+    publicClient = createPublicClient({
+      chain: giwaSepoliaChain,
+      transport: http(RPC_URL),
+    });
+  }
+  return publicClient;
+}
+
+let swapClient: AmmoraSwapClient | null = null;
+export async function getSwapClient(): Promise<AmmoraSwapClient> {
+  if (!swapClient) {
+    swapClient = await AmmoraSwapClient.create(getPublicClient(), {
+      deploymentCatalog: { [CHAIN_ID]: giwaSepoliaAutoRouteDeployment },
+      factoryProfiles: giwaSepoliaAutoRoutePoolProfiles,
+    });
+  }
+  return swapClient;
+}
+
+const erc20Abi = parseAbi([
+  "function balanceOf(address owner) view returns (uint256)",
+  "function symbol() view returns (string)",
+  "function decimals() view returns (uint8)",
+  "function approve(address spender, uint256 amount) returns (bool)",
+]);
+
+export interface Balances {
+  eth: bigint;
+  weth: bigint;
+  kgpt: bigint;
+}
+
+export async function getBalances(owner: Address): Promise<Balances> {
+  const client = getPublicClient();
+  const [eth, weth, kgpt] = await Promise.all([
+    client.getBalance({ address: owner }),
+    client.readContract({ address: WETH_ADDRESS, abi: erc20Abi, functionName: "balanceOf", args: [owner] }),
+    client.readContract({ address: KGPT_ADDRESS, abi: erc20Abi, functionName: "balanceOf", args: [owner] }),
+  ]);
+  return { eth, weth, kgpt };
+}
+
+export interface QuoteRequest {
+  pay: TokenId;
+  receive: TokenId;
+  /** Raw amount in the pay token's smallest unit. */
+  amountIn: bigint;
+  payer: Address;
+  slippageBps: number;
+}
+
+export type PreparedSwap = Awaited<ReturnType<AmmoraSwapClient["prepareExactIn"]>>;
+
+/**
+ * Build a live quote with the Ammora SDK. Returns the prepared swap, whose
+ * `.quote` holds expected/minimum output, fee and price impact, and whose
+ * `.execute(wallet)` sends the approval (if any) and the swap.
+ * Throws the SDK error when the pool cannot quote (for example
+ * PriceRangeViolation when the amount is too large for pool liquidity).
+ */
+export async function prepareQuote(req: QuoteRequest): Promise<PreparedSwap> {
+  const swaps = await getSwapClient();
+  const payToken = TOKENS[req.pay];
+  const tokenIn = payToken.native ? WETH_ADDRESS : (payToken.address as Address);
+  return swaps.prepareExactIn({
+    model: POOL_MODEL,
+    pool: POOL_ADDRESS,
+    tokenIn,
+    inputAsset: payToken.native ? "native" : "erc20",
+    amountIn: req.amountIn,
+    payer: req.payer,
+    recipient: req.payer,
+    slippageBps: req.slippageBps,
+    executionMode: "direct-wallet",
+  });
+}
+
+export interface WalletConnection {
+  walletClient: WalletClient;
+  address: Address;
+  chainId: number;
+}
+
+/** Connect MetaMask (or any injected wallet) and switch it to GIWA Sepolia. */
+export async function connectWallet(): Promise<WalletConnection> {
+  const eth = (window as unknown as { ethereum?: unknown }).ethereum;
+  if (!eth) throw new Error("NO_WALLET");
+  const walletClient = createWalletClient({
+    chain: giwaSepoliaChain,
+    transport: custom(eth as never),
+  });
+  const [address] = await walletClient.requestAddresses();
+  if (!address) throw new Error("NO_ACCOUNT");
+  let chainId = await walletClient.getChainId();
+  if (chainId !== CHAIN_ID) {
+    try {
+      await walletClient.switchChain({ id: CHAIN_ID });
+    } catch (e) {
+      const err = e as { code?: number };
+      // 4902 = chain not added to the wallet yet.
+      if (err && err.code === 4902) {
+        await walletClient.addChain({ chain: giwaSepoliaChain });
+        await walletClient.switchChain({ id: CHAIN_ID });
+      } else {
+        throw e;
+      }
+    }
+    chainId = await walletClient.getChainId();
+  }
+  return { walletClient, address, chainId };
+}
+
+/** Run a prepared swap through the user's wallet. Handles ERC20 approval first when required. */
+export async function executeSwap(
+  prepared: PreparedSwap,
+  walletClient: WalletClient,
+  onStatus?: (status: SafeSwapStatus) => void,
+) {
+  return prepared.execute(walletClient, { autoRefresh: true, onStatus });
+}
+
+/** Human-readable message for the errors the SDK and wallet surface. */
+export function friendlyError(e: unknown): string {
+  const msg = e instanceof Error ? e.message : String(e);
+  if (msg.includes("NO_WALLET")) return "No wallet found. Install MetaMask (or another EVM wallet) and try again.";
+  if (msg.includes("NO_ACCOUNT")) return "No account connected. Unlock MetaMask and connect an account.";
+  if (msg.includes("PriceRangeViolation")) return "Amount too large for this pool's liquidity. Try a much smaller amount (the pool only holds ~0.001 WETH).";
+  if (msg.includes("no reviewed exact-input route")) return "No route is available for this pair right now.";
+  if (msg.includes("User rejected") || msg.includes("user rejected") || msg.includes("User denied")) return "Transaction rejected in your wallet.";
+  if (msg.includes("insufficient funds") || msg.includes("Insufficient")) return "Insufficient balance (check your token balance and testnet ETH for gas).";
+  if (msg.includes("unsupported") && msg.includes("factory")) return "This pool is not in the reviewed Ammora generation. The app only lists the verified WETH/KGPT pool.";
+  return msg.length > 300 ? msg.slice(0, 300) + "..." : msg;
+}
+
+/** Format a raw bigint amount into a human string with up to 6 decimals. */
+export function formatAmount(raw: bigint, decimals: number, maxDecimals = 6): string {
+  const neg = raw < 0n;
+  const abs = neg ? -raw : raw;
+  const base = 10n ** BigInt(decimals);
+  const whole = abs / base;
+  const frac = abs % base;
+  let fracStr = frac.toString().padStart(decimals, "0").slice(0, maxDecimals).replace(/0+$/, "");
+  const out = fracStr ? `${whole.toString()}.${fracStr}` : whole.toString();
+  return neg ? `-${out}` : out;
+}
+
+/** Parse a human decimal string into raw units. Returns null when invalid. */
+export function parseAmount(input: string, decimals: number): bigint | null {
+  const s = input.trim();
+  if (!/^\d+(\.\d+)?$/.test(s)) return null;
+  const [whole, frac = ""] = s.split(".");
+  if (frac.length > decimals) return null;
+  const raw = BigInt(whole) * 10n ** BigInt(decimals) + BigInt(frac.padEnd(decimals, "0") || "0");
+  return raw;
+}
