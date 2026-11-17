@@ -1,1 +1,113 @@
-IyBBbW1vcmEgU3dhcCDigJQgR0lXQSBTZXBvbGlhIFRlc3RuZXQKCkEgbGlnaHQgc3dhcCBVSSAoZXhjaGFuZ2UpIGJ1aWx0IHdpdGggdGhlIEFtbW9yYSBTREsgZm9yIHRoZSAqKkFtbW9yYSBTZWFzb24gMgpCdWlsZGVyIG1pc3Npb24qKiAoIlNoaXAgYW4gZXhjaGFuZ2Ugb3IgbGF1bmNocGFkIHdpdGggdGhlIEFtbW9yYSBTREsiKS4KVGVzdG5ldCBvbmx5IOKAlCBubyByZWFsIGZ1bmRzLCBubyBwcml2YXRlIGtleXMgYW55d2hlcmUuCgohW1N3YXAgVUkgd2l0aCBhIGxpdmUgcXVvdGVdKGFtbW9yYS1zd2FwLXF1b3RlLnBuZykKCiMjIFdoYXQgaXQgZG9lcwoKLSBDb25uZWN0cyBNZXRhTWFzayAob3IgYW55IGluamVjdGVkIEVWTSB3YWxsZXQpIGFuZCBzd2l0Y2hlcy9hZGRzIHRoZQogICoqR0lXQSBTZXBvbGlhKiogbmV0d29yayAoY2hhaW4gaWQgYDkxMzQyYCkuCi0gU2hvd3MgbGl2ZSBFVEggLyBXRVRIIC8gS0dQVCBiYWxhbmNlcyBmb3IgdGhlIGNvbm5lY3RlZCB3YWxsZXQuCi0gR2V0cyBhICoqbGl2ZSBxdW90ZSoqIGZyb20gYEBhbW1vcmEtcHJvdG9jb2wvc2RrQDAuMy45YAogIChgQW1tb3JhU3dhcENsaWVudC5wcmVwYXJlRXhhY3RJbmApIGFzIHlvdSB0eXBlLCBhbmQgc2hvd3MgcmF0ZSwgbWluaW11bQogIHJlY2VpdmVkLCBmZWUsIHByaWNlIGltcGFjdCBhbmQgc2xpcHBhZ2UuCi0gRXhlY3V0ZXMgdGhlIHN3YXAgdGhyb3VnaCB0aGUgdXNlcidzIG93biB3YWxsZXQgKGBwcmVwYXJlZC5leGVjdXRlKClgKSwKICBpbmNsdWRpbmcgdGhlIEVSQzIwIGFwcHJvdmFsIHN0ZXAgd2hlbiBvbmUgaXMgbmVlZGVkLiBOYXRpdmUgRVRIIG5lZWRzIG5vCiAgYXBwcm92YWwuCi0gSGFuZGxlcyB0aGUgZmFpbHVyZSBtb2RlcyBob25lc3RseTogb3ZlcnNpemVkIGFtb3VudHMgZ2V0IGEgY2xlYXIKICAidG9vIGxhcmdlIGZvciB0aGlzIHBvb2wncyBsaXF1aWRpdHkiIG1lc3NhZ2UsIGFuZCBhbiBlbXB0eSB3YWxsZXQgZ2V0cyBhCiAgcG9pbnRlciB0byB0aGUgR0lXQSBTZXBvbGlhIGZhdWNldC4KCiMjIFRoZSBwb29sICh2ZXJpZmllZCBsaXZlIDIwMjYtMTEtMTcpCgpPbmUgdmVyaWZpZWQgY29uY2VudHJhdGVkIHBvb2wgb24gR0lXQSBTZXBvbGlhOgoKfCB8IHwKfC0tLXwtLS18CnwgUG9vbCB8IGAweEQ5MTJGYTE4MDYxRTU2NjUxMzZBRTVkQmMwMDJhRGEwZmMwRDNjMjhgIChtb2RlbCBgY29uY2VudHJhdGVkYCkgfAp8IFBhaXIgfCBXRVRIIOKGlCBLR1BUIHwKfCBXRVRIIHwgYDB4NDIwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwNmAgKDE4IGRlY2ltYWxzKSB8CnwgS0dQVCB8IGAweGVGRDBiNzRjQjczMzUzNEQ2NTU0ODk0YzBGZEY1OTMxYTcxMUJDRkJgICg5IGRlY2ltYWxzLCAiS29yZWFuIEd1aWRlIFBhcnRuZXIgVGVzdCIpIHwKfCBSUEMgfCBgaHR0cHM6Ly9zZXBvbGlhLXJwYy5naXdhLmlvYCB8CnwgRXhwbG9yZXIgfCBgaHR0cHM6Ly9zZXBvbGlhLWV4cGxvcmVyLmdpd2EuaW9gIHwKClN1cHBvcnRlZCBkaXJlY3Rpb25zOiAqKkVUSCDihpIgS0dQVCoqLCAqKldFVEgg4oaSIEtHUFQqKiwgKipLR1BUIOKGkiBXRVRIKiouClBheWluZyB3aXRoIEVUSCB3cmFwcyBpdCB0byBXRVRIIGF1dG9tYXRpY2FsbHkgKGBpbnB1dEFzc2V0OiAibmF0aXZlImApLgoKKipUaGluIGxpcXVpZGl0eSDigJQgcmVhZCB0aGlzLioqIFRoZSBwb29sIGlzIGxpdmUgYnV0IGhvbGRzIG9ubHkgYWJvdXQKMC4wMDEgV0VUSCBhbmQgfjEwIEtHUFQgaW4gcmVzZXJ2ZSwgc28gc3dhcHMgbXVzdCBzdGF5IHNtYWxsLiBBIDAuMDAwMDAxIFdFVEgKc3dhcCBxdW90ZXMgZmluZSAodmVyaWZpZWQ6IOKGkiB+MTAuMDMgS0dQVCk7IDAuMDAwMDEgV0VUSCBhbmQgYWJvdmUgaXMgcmVmdXNlZApieSB0aGUgU0RLIHdpdGggYFByaWNlUmFuZ2VWaW9sYXRpb25gLCB3aGljaCB0aGUgVUkgdHJhbnNsYXRlcyB0byBhIGZyaWVuZGx5Cm1lc3NhZ2UuIFByaWNlIGltcGFjdCBvbiB0aGUgcXVvdGVkIHNpemUgaXMgaGlnaCAofjk5JSkgYW5kIGlzIHNob3duIGluIHJlZC4KVGhpcyBpcyBhIHByb3BlcnR5IG9mIHRoZSB0ZXN0bmV0IHBvb2wsIG5vdCBhIGJ1ZyBpbiB0aGUgYXBwLgoKVHdvIFNESyBmYWN0cyB0aGF0IHRvb2sgcHJvYmluZyB0byBmaW5kIChzZWUgYHNyYy9hbW1vcmEudHNgKToKCjEuIGBBbW1vcmFTd2FwQ2xpZW50LmNyZWF0ZWAgKiptdXN0KiogcmVjZWl2ZQogICBgZmFjdG9yeVByb2ZpbGVzOiBnaXdhU2Vwb2xpYUF1dG9Sb3V0ZVBvb2xQcm9maWxlc2AsIG9yIHRoZSBwb29sIGZhY3RvcnkgaXMKICAgcmVwb3J0ZWQgYXMgInVuc3VwcG9ydGVkIiBhbmQgZXZlcnkgcXVvdGUgZmFpbHMuCjIuIFRoZSBzaW1wbGUgYEFtbW9yYVJvdXRlQ2xpZW50LmNyZWF0ZSh7IGNoYWluSWQ6IDkxMzQyIH0pYCBmb3JtIGZyb20gdGhlCiAgIEFtbW9yYSBob21lcGFnZSBkb2VzICoqbm90Kiogd29yayBhcy1pcyDigJQgaXQgbmVlZHMgYW4gZXhwbGljaXQKICAgYHZlcmlmaWNhdGlvbkJsb2NrYCBwbHVzIHRoZSByb3V0ZS9kZXBsb3ltZW50IGNhdGFsb2dzLiBUaGlzIGFwcCB1c2VzIHRoZQogICBzaW5nbGUtcG9vbCBgQW1tb3JhU3dhcENsaWVudGAgcGF0aCBpbnN0ZWFkLCB3aGljaCBpcyB0aGUgcmV2aWV3ZWQKICAgd2FsbGV0LWZhY2luZyBmbG93LgoKT24tY2hhaW4gcG9vbCBkaXNjb3ZlcnkgKGBkaXNjb3ZlclBvb2xzKClgIC8gVW5pc3dhcCBWNCBoYW5kbGUgZGlzY292ZXJ5KQpzY2FucyBtaWxsaW9ucyBvZiBibG9ja3Mgb3ZlciB0aGUgcHVibGljIFJQQyBhbmQgdGFrZXMgbWFueSBtaW51dGVzLCBzbyBpdCBpcwpkZWxpYmVyYXRlbHkgbm90IGluIHRoaXMgbGlnaHQgYnVpbGQuIFRvIGxpc3QgYW5vdGhlciBwb29sLCBhZGQgaXRzIGFkZHJlc3MKYW5kIG1vZGVsIHRvIGBQT09MX0FERFJFU1NgIC8gYFBPT0xfTU9ERUxgIGluIGBzcmMvYW1tb3JhLnRzYCBhbmQgcmUtdmVyaWZ5CndpdGggYSBxdW90ZSBwcm9iZSBmaXJzdC4KCiMjIFJ1biBsb2NhbGx5CgpSZXF1aXJlcyBOb2RlIDIyKy4KCmBgYGJhc2gKbnBtIGluc3RhbGwKbnBtIHJ1biBkZXYgICAgICAgICMgaHR0cDovL2xvY2FsaG9zdDo1MTczCmBgYAoKVG8gYnVpbGQgdGhlIHByb2R1Y3Rpb24gYnVuZGxlOgoKYGBgYmFzaApucG0gcnVuIGJ1aWxkICAgICAgIyBvdXRwdXQgaW4gZGlzdC8KbnBtIHJ1biBwcmV2aWV3ICAgICMgc2VydmUgZGlzdC8gbG9jYWxseSB0byBjaGVjayBpdApgYGAKCk9wdGlvbmFsIGVudiBvdmVycmlkZXMgKGAuZW52YCBvciBzaGVsbCk6CgotIGBWSVRFX0FNTU9SQV9SUENfVVJMYCDigJQgdXNlIGEgZGlmZmVyZW50IEdJV0EgU2Vwb2xpYSBSUEMgZW5kcG9pbnQuCi0gYFZJVEVfQkFTRWAg4oCUIGJhc2UgcGF0aCBmb3IgZGVwbG95bWVudCAoc2VlIGJlbG93KS4KCiMjIERlcGxveSAoR2l0SHViIFBhZ2VzKQoKMS4gQ3JlYXRlIGEgKipwdWJsaWMqKiBHaXRIdWIgcmVwbyAodGhlIEdpdEh1YiBjb25uZWN0b3IgY2Fubm90IGNyZWF0ZSByZXBvcywKICAgc28gY3JlYXRlIGl0IGluIHRoZSBHaXRIdWIgd2ViIFVJKS4gU3VnZ2VzdGVkIG5hbWU6IGBhbW1vcmEtZXhjaGFuZ2VgLgoyLiBQdXNoIHRoaXMgZm9sZGVyJ3MgY29udGVudHMgdG8gdGhlIHJlcG8ncyBgbWFpbmAgYnJhbmNoLgozLiBCdWlsZCB3aXRoIHRoZSBQYWdlcyBiYXNlIHBhdGgsIHRoZW4gcHVibGlzaCBgZGlzdC9gOgogICBgYGBiYXNoCiAgIFZJVEVfQkFTRT0vYW1tb3JhLWV4Y2hhbmdlLyBucG0gcnVuIGJ1aWxkCiAgIGBgYAogICBUaGVuIGVuYWJsZSBHaXRIdWIgUGFnZXMgZm9yIHRoZSByZXBvIChTZXR0aW5ncyDihpIgUGFnZXMg4oaSIGRlcGxveSBmcm9tIHRoZQogICBgbWFpbmAgYnJhbmNoIGAvZG9jc2AgZm9sZGVyLCBvciB1c2UgYSBgZ2gtcGFnZXNgIGJyYW5jaCksIGNvcHlpbmcgYGRpc3QvYAogICB0byB0aGUgcHVibGlzaGVkIGZvbGRlci4gQW55IHN0YXRpYyBob3N0IHdvcmtzIHRvbyAoTmV0bGlmeSwgVmVyY2VsLCBDbG91ZGZsYXJlCiAgIFBhZ2VzKSDigJQgc2VydmUgYGRpc3QvYCBhcy1pcyB3aXRoIGJhc2UgYC9gLgo0LiBUaGUgbGl2ZSBzaXRlIGlzIHRoZSB3ZWJzaXRlIGxpbmsgdG8gc3VibWl0IGZvciB0aGUgQnVpbGRlciBtaXNzaW9uLgoKIyMgR2V0IHRlc3RuZXQgRVRIIChnYXMpCgotIE9mZmljaWFsIGZhdWNldDogaHR0cHM6Ly9mYXVjZXQuZ2l3YS5pbyAoMC4wMDUgRVRIIC8gMjQgaCkKLSBCYWNrdXAgZmF1Y2V0OiBodHRwczovL2ZhdWNldC5sYW1iZGEyNTYuaW8vZ2l3YS1zZXBvbGlhICgwLjAxIEVUSCkKClRlc3RuZXQgRVRIIGhhcyBubyB2YWx1ZS4gTmV2ZXIgcGF5IGZvciBpdCwgYW5kIG5ldmVyIHNoYXJlIGEgc2VlZCBwaHJhc2Ug4oCUCnRoaXMgYXBwIG5ldmVyIGFza3MgZm9yIG9uZS4KCiMjIFNlY3VyaXR5IG5vdGVzCgotIE5vIHByaXZhdGUga2V5LCBzZWVkIHBocmFzZSBvciBjcmVkZW50aWFsIGlzIHN0b3JlZCBpbiB0aGlzIHJlcG8gb3IgaW4gdGhlCiAgYXBwLiBSZWFkcyB1c2UgdGhlIHB1YmxpYyBSUEM7IHdyaXRlcyBhcmUgc2lnbmVkIGJ5IHRoZSB1c2VyJ3Mgb3duIHdhbGxldC4KLSBUaGUgb25seSBleHRlcm5hbCBob3N0IHRoZSBhcHAgY2FsbHMgaXMgdGhlIEdJV0EgU2Vwb2xpYSBSUEMKICAoYHNlcG9saWEtcnBjLmdpd2EuaW9gKSBwbHVzIHRoZSBibG9jayBleHBsb3JlciBsaW5rcy4K
+# Ammora Swap — GIWA Sepolia Testnet
+
+A light swap UI (exchange) built with the Ammora SDK for the **Ammora Season 2
+Builder mission** ("Ship an exchange or launchpad with the Ammora SDK").
+Testnet only — no real funds, no private keys anywhere.
+
+![Swap UI with a live quote](ammora-swap-quote.png)
+
+## What it does
+
+- Connects MetaMask (or any injected EVM wallet) and switches/adds the
+  **GIWA Sepolia** network (chain id `91342`).
+- Shows live ETH / WETH / KGPT balances for the connected wallet.
+- Gets a **live quote** from `@ammora-protocol/sdk@0.3.9`
+  (`AmmoraSwapClient.prepareExactIn`) as you type, and shows rate, minimum
+  received, fee, price impact and slippage.
+- Executes the swap through the user's own wallet (`prepared.execute()`),
+  including the ERC20 approval step when one is needed. Native ETH needs no
+  approval.
+- Handles the failure modes honestly: oversized amounts get a clear
+  "too large for this pool's liquidity" message, and an empty wallet gets a
+  pointer to the GIWA Sepolia faucet.
+
+## The pool (verified live 2026-11-17)
+
+One verified concentrated pool on GIWA Sepolia:
+
+| | |
+|---|---|
+| Pool | `0xD912Fa18061E5665136AE5dBc002aDa0fc0D3c28` (model `concentrated`) |
+| Pair | WETH ↔ KGPT |
+| WETH | `0x4200000000000000000000000000000000000006` (18 decimals) |
+| KGPT | `0xeFD0b74cB733534D6554894c0FdF5931a711BCFB` (9 decimals, "Korean Guide Partner Test") |
+| RPC | `https://sepolia-rpc.giwa.io` |
+| Explorer | `https://sepolia-explorer.giwa.io` |
+
+Supported directions: **ETH → KGPT**, **WETH → KGPT**, **KGPT → WETH**.
+Paying with ETH wraps it to WETH automatically (`inputAsset: "native"`).
+
+**Thin liquidity — read this.** The pool is live but holds only about
+0.001 WETH and ~10 KGPT in reserve, so swaps must stay small. A 0.000001 WETH
+swap quotes fine (verified: → ~10.03 KGPT); 0.00001 WETH and above is refused
+by the SDK with `PriceRangeViolation`, which the UI translates to a friendly
+message. Price impact on the quoted size is high (~99%) and is shown in red.
+This is a property of the testnet pool, not a bug in the app.
+
+Two SDK facts that took probing to find (see `src/ammora.ts`):
+
+1. `AmmoraSwapClient.create` **must** receive
+   `factoryProfiles: giwaSepoliaAutoRoutePoolProfiles`, or the pool factory is
+   reported as "unsupported" and every quote fails.
+2. The simple `AmmoraRouteClient.create({ chainId: 91342 })` form from the
+   Ammora homepage does **not** work as-is — it needs an explicit
+   `verificationBlock` plus the route/deployment catalogs. This app uses the
+   single-pool `AmmoraSwapClient` path instead, which is the reviewed
+   wallet-facing flow.
+
+On-chain pool discovery (`discoverPools()` / Uniswap V4 handle discovery)
+scans millions of blocks over the public RPC and takes many minutes, so it is
+deliberately not in this light build. To list another pool, add its address
+and model to `POOL_ADDRESS` / `POOL_MODEL` in `src/ammora.ts` and re-verify
+with a quote probe first.
+
+## Run locally
+
+Requires Node 22+.
+
+```bash
+npm install
+npm run dev        # http://localhost:5173
+```
+
+To build the production bundle:
+
+```bash
+npm run build      # output in dist/
+npm run preview    # serve dist/ locally to check it
+```
+
+Optional env overrides (`.env` or shell):
+
+- `VITE_AMMORA_RPC_URL` — use a different GIWA Sepolia RPC endpoint.
+- `VITE_BASE` — base path for deployment (see below).
+
+## Deploy (GitHub Pages)
+
+1. Create a **public** GitHub repo (the GitHub connector cannot create repos,
+   so create it in the GitHub web UI). Suggested name: `ammora-exchange`.
+2. Push this folder's contents to the repo's `main` branch.
+3. Build with the Pages base path, then publish `dist/`:
+   ```bash
+   VITE_BASE=/ammora-exchange/ npm run build
+   ```
+   Then enable GitHub Pages for the repo (Settings → Pages → deploy from the
+   `main` branch `/docs` folder, or use a `gh-pages` branch), copying `dist/`
+   to the published folder. Any static host works too (Netlify, Vercel, Cloudflare
+   Pages) — serve `dist/` as-is with base `/`.
+4. The live site is the website link to submit for the Builder mission.
+
+## Get testnet ETH (gas)
+
+- Official faucet: https://faucet.giwa.io (0.005 ETH / 24 h)
+- Backup faucet: https://faucet.lambda256.io/giwa-sepolia (0.01 ETH)
+
+Testnet ETH has no value. Never pay for it, and never share a seed phrase —
+this app never asks for one.
+
+## Security notes
+
+- No private key, seed phrase or credential is stored in this repo or in the
+  app. Reads use the public RPC; writes are signed by the user's own wallet.
+- The only external host the app calls is the GIWA Sepolia RPC
+  (`sepolia-rpc.giwa.io`) plus the block explorer links.
