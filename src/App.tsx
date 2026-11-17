@@ -1,1 +1,361 @@
-aW1wb3J0IHsgdXNlQ2FsbGJhY2ssIHVzZUVmZmVjdCwgdXNlTWVtbywgdXNlUmVmLCB1c2VTdGF0ZSB9IGZyb20gInJlYWN0IjsKaW1wb3J0IHR5cGUgeyBBZGRyZXNzIH0gZnJvbSAidmllbSI7CmltcG9ydCB7CiAgQ0hBSU5fTkFNRSwKICBERUZBVUxUX1NMSVBQQUdFX0JQUywKICBFWFBMT1JFUl9VUkwsCiAgRkFVQ0VUX1VSTCwKICBGQVVDRVRfQkFDS1VQX1VSTCwKICBQQUlSUywKICBQT09MX0FERFJFU1MsCiAgU0RLX1ZFUlNJT04sCiAgVE9LRU5TLAogIGNvbm5lY3RXYWxsZXQsCiAgZXhlY3V0ZVN3YXAsCiAgZm9ybWF0QW1vdW50LAogIGZyaWVuZGx5RXJyb3IsCiAgZ2V0QmFsYW5jZXMsCiAgcGFyc2VBbW91bnQsCiAgcHJlcGFyZVF1b3RlLAogIHR5cGUgQmFsYW5jZXMsCiAgdHlwZSBQcmVwYXJlZFN3YXAsCiAgdHlwZSBUb2tlbklkLAogIHR5cGUgV2FsbGV0Q29ubmVjdGlvbiwKfSBmcm9tICIuL2FtbW9yYSI7Cgp0eXBlIFR4UGhhc2UgPSAiaWRsZSIgfCAicHJlcGFyaW5nIiB8ICJ3YWl0aW5nIiB8ICJjb25maXJtaW5nIiB8ICJkb25lIiB8ICJlcnJvciI7CgpmdW5jdGlvbiBzaG9ydEFkZHIoYTogc3RyaW5nKSB7CiAgcmV0dXJuIGAke2Euc2xpY2UoMCwgNil9Li4uJHthLnNsaWNlKC00KX1gOwp9CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBBcHAoKSB7CiAgY29uc3QgW3dhbGxldCwgc2V0V2FsbGV0XSA9IHVzZVN0YXRlPFdhbGxldENvbm5lY3Rpb24gfCBudWxsPihudWxsKTsKICBjb25zdCBbYmFsYW5jZXMsIHNldEJhbGFuY2VzXSA9IHVzZVN0YXRlPEJhbGFuY2VzIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgW2Nvbm5lY3RpbmcsIHNldENvbm5lY3RpbmddID0gdXNlU3RhdGUoZmFsc2UpOwogIGNvbnN0IFtjb25uZWN0RXJyb3IsIHNldENvbm5lY3RFcnJvcl0gPSB1c2VTdGF0ZSgiIik7CgogIGNvbnN0IFtwYXlJZCwgc2V0UGF5SWRdID0gdXNlU3RhdGU8VG9rZW5JZD4oIkVUSCIpOwogIGNvbnN0IFtyZWNlaXZlSWQsIHNldFJlY2VpdmVJZF0gPSB1c2VTdGF0ZTxUb2tlbklkPigiS0dQVCIpOwogIGNvbnN0IFthbW91bnQsIHNldEFtb3VudF0gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW3NsaXBwYWdlQnBzLCBzZXRTbGlwcGFnZUJwc10gPSB1c2VTdGF0ZShERUZBVUxUX1NMSVBQQUdFX0JQUyk7CgogIGNvbnN0IFtwcmVwYXJlZCwgc2V0UHJlcGFyZWRdID0gdXNlU3RhdGU8UHJlcGFyZWRTd2FwIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgW3F1b3RlRXJyb3IsIHNldFF1b3RlRXJyb3JdID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFtxdW90aW5nLCBzZXRRdW90aW5nXSA9IHVzZVN0YXRlKGZhbHNlKTsKCiAgY29uc3QgW3R4UGhhc2UsIHNldFR4UGhhc2VdID0gdXNlU3RhdGU8VHhQaGFzZT4oImlkbGUiKTsKICBjb25zdCBbdHhIYXNoLCBzZXRUeEhhc2hdID0gdXNlU3RhdGUoIiIpOwogIGNvbnN0IFt0eE1lc3NhZ2UsIHNldFR4TWVzc2FnZV0gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW3JlY2VpdmVkLCBzZXRSZWNlaXZlZF0gPSB1c2VTdGF0ZSgiIik7CgogIGNvbnN0IHF1b3RlVGltZXIgPSB1c2VSZWY8bnVtYmVyIHwgbnVsbD4obnVsbCk7CiAgY29uc3QgcXVvdGVTZXEgPSB1c2VSZWYoMCk7CgogIGNvbnN0IHBheVRva2VuID0gVE9LRU5TW3BheUlkXTsKICBjb25zdCByZWNlaXZlVG9rZW4gPSBUT0tFTlNbcmVjZWl2ZUlkXTsKCiAgY29uc3QgYmFsYW5jZU9mID0gdXNlQ2FsbGJhY2soCiAgICAoaWQ6IFRva2VuSWQpOiBiaWdpbnQgfCBudWxsID0+IHsKICAgICAgaWYgKCFiYWxhbmNlcykgcmV0dXJuIG51bGw7CiAgICAgIGlmIChpZCA9PT0gIkVUSCIpIHJldHVybiBiYWxhbmNlcy5ldGg7CiAgICAgIGlmIChpZCA9PT0gIldFVEgiKSByZXR1cm4gYmFsYW5jZXMud2V0aDsKICAgICAgcmV0dXJuIGJhbGFuY2VzLmtncHQ7CiAgICB9LAogICAgW2JhbGFuY2VzXSwKICApOwoKICBjb25zdCBwYXlCYWxhbmNlID0gYmFsYW5jZU9mKHBheUlkKTsKICBjb25zdCBhbW91bnRSYXcgPSB1c2VNZW1vKAogICAgKCkgPT4gKGFtb3VudCA/IHBhcnNlQW1vdW50KGFtb3VudCwgcGF5VG9rZW4uZGVjaW1hbHMpIDogbnVsbCksCiAgICBbYW1vdW50LCBwYXlUb2tlbi5kZWNpbWFsc10sCiAgKTsKICBjb25zdCBpbnN1ZmZpY2llbnQgPSBhbW91bnRSYXcgIT09IG51bGwgJiYgcGF5QmFsYW5jZSAhPT0gbnVsbCAmJiBhbW91bnRSYXcgPiBwYXlCYWxhbmNlOwogIGNvbnN0IHZhbGlkUGFpciA9IFBBSVJTLnNvbWUoKHApID0+IHAucGF5ID09PSBwYXlJZCAmJiBwLnJlY2VpdmUgPT09IHJlY2VpdmVJZCk7CgogIGNvbnN0IHJlZnJlc2hCYWxhbmNlcyA9IHVzZUNhbGxiYWNrKGFzeW5jIChhZGRyZXNzOiBBZGRyZXNzKSA9PiB7CiAgICB0cnkgewogICAgICBzZXRCYWxhbmNlcyhhd2FpdCBnZXRCYWxhbmNlcyhhZGRyZXNzKSk7CiAgICB9IGNhdGNoIHsKICAgICAgLy8gQmFsYW5jZXMgYXJlIGEgY29udmVuaWVuY2U7IGEgZmFpbGVkIHJlYWQgbXVzdCBub3QgYnJlYWsgdGhlIHN3YXAuCiAgICB9CiAgfSwgW10pOwoKICBjb25zdCBkb0Nvbm5lY3QgPSB1c2VDYWxsYmFjayhhc3luYyAoKSA9PiB7CiAgICBzZXRDb25uZWN0aW5nKHRydWUpOwogICAgc2V0Q29ubmVjdEVycm9yKCIiKTsKICAgIHRyeSB7CiAgICAgIGNvbnN0IGNvbm4gPSBhd2FpdCBjb25uZWN0V2FsbGV0KCk7CiAgICAgIHNldFdhbGxldChjb25uKTsKICAgICAgYXdhaXQgcmVmcmVzaEJhbGFuY2VzKGNvbm4uYWRkcmVzcyk7CiAgICB9IGNhdGNoIChlKSB7CiAgICAgIHNldENvbm5lY3RFcnJvcihmcmllbmRseUVycm9yKGUpKTsKICAgIH0gZmluYWxseSB7CiAgICAgIHNldENvbm5lY3RpbmcoZmFsc2UpOwogICAgfQogIH0sIFtyZWZyZXNoQmFsYW5jZXNdKTsKCiAgLy8gS2VlcCBiYWxhbmNlcyBmcmVzaCB3aGlsZSBjb25uZWN0ZWQuCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIGlmICghd2FsbGV0KSByZXR1cm47CiAgICBjb25zdCB0ID0gd2luZG93LnNldEludGVydmFsKCgpID0+IHJlZnJlc2hCYWxhbmNlcyh3YWxsZXQuYWRkcmVzcyksIDE1MDAwKTsKICAgIHJldHVybiAoKSA9PiB3aW5kb3cuY2xlYXJJbnRlcnZhbCh0KTsKICB9LCBbd2FsbGV0LCByZWZyZXNoQmFsYW5jZXNdKTsKCiAgLy8gRGVib3VuY2VkIGxpdmUgcXVvdGUgd2hlbmV2ZXIgdGhlIHBheSB0b2tlbiwgcmVjZWl2ZSB0b2tlbiwgYW1vdW50IG9yCiAgLy8gc2xpcHBhZ2UgY2hhbmdlcy4gQSBxdW90ZSBpcyBhIHJlYWQtb25seSBTREsgY2FsbDsgbm90aGluZyBpcyBzaWduZWQuCiAgdXNlRWZmZWN0KCgpID0+IHsKICAgIHNldFByZXBhcmVkKG51bGwpOwogICAgc2V0UXVvdGVFcnJvcigiIik7CiAgICBpZiAocXVvdGVUaW1lci5jdXJyZW50KSB3aW5kb3cuY2xlYXJUaW1lb3V0KHF1b3RlVGltZXIuY3VycmVudCk7CiAgICBpZiAoIXdhbGxldCB8fCAhdmFsaWRQYWlyIHx8IGFtb3VudFJhdyA9PT0gbnVsbCB8fCBhbW91bnRSYXcgPD0gMG4gfHwgaW5zdWZmaWNpZW50KSByZXR1cm47CiAgICBzZXRRdW90aW5nKHRydWUpOwogICAgY29uc3Qgc2VxID0gKytxdW90ZVNlcS5jdXJyZW50OwogICAgcXVvdGVUaW1lci5jdXJyZW50ID0gd2luZG93LnNldFRpbWVvdXQoYXN5bmMgKCkgPT4gewogICAgICB0cnkgewogICAgICAgIGNvbnN0IHAgPSBhd2FpdCBwcmVwYXJlUXVvdGUoewogICAgICAgICAgcGF5OiBwYXlJZCwKICAgICAgICAgIHJlY2VpdmU6IHJlY2VpdmVJZCwKICAgICAgICAgIGFtb3VudEluOiBhbW91bnRSYXcsCiAgICAgICAgICBwYXllcjogd2FsbGV0LmFkZHJlc3MsCiAgICAgICAgICBzbGlwcGFnZUJwcywKICAgICAgICB9KTsKICAgICAgICBpZiAocXVvdGVTZXEuY3VycmVudCAhPT0gc2VxKSByZXR1cm47CiAgICAgICAgc2V0UHJlcGFyZWQocCk7CiAgICAgICAgc2V0UXVvdGVFcnJvcigiIik7CiAgICAgIH0gY2F0Y2ggKGUpIHsKICAgICAgICBpZiAocXVvdGVTZXEuY3VycmVudCAhPT0gc2VxKSByZXR1cm47CiAgICAgICAgc2V0UXVvdGVFcnJvcihmcmllbmRseUVycm9yKGUpKTsKICAgICAgfSBmaW5hbGx5IHsKICAgICAgICBpZiAocXVvdGVTZXEuY3VycmVudCA9PT0gc2VxKSBzZXRRdW90aW5nKGZhbHNlKTsKICAgICAgfQogICAgfSwgNDUwKTsKICAgIHJldHVybiAoKSA9PiB7CiAgICAgIGlmIChxdW90ZVRpbWVyLmN1cnJlbnQpIHdpbmRvdy5jbGVhclRpbWVvdXQocXVvdGVUaW1lci5jdXJyZW50KTsKICAgIH07CiAgfSwgW3dhbGxldCwgdmFsaWRQYWlyLCBhbW91bnRSYXcsIGluc3VmZmljaWVudCwgcGF5SWQsIHJlY2VpdmVJZCwgc2xpcHBhZ2VCcHNdKTsKCiAgY29uc3QgcXVvdGUgPSBwcmVwYXJlZD8ucXVvdGU7CiAgY29uc3QgZmxpcCA9ICgpID0+IHsKICAgIC8vIE9ubHkgZmxpcCB0byBhIHBhaXIgdGhpcyBwb29sIHN1cHBvcnRzLgogICAgY29uc3QgbmV4dCA9IFBBSVJTLmZpbmQoKHApID0+IHAucGF5ID09PSByZWNlaXZlSWQgJiYgcC5yZWNlaXZlID09PSBwYXlJZCk7CiAgICBpZiAoIW5leHQpIHJldHVybjsKICAgIHNldFBheUlkKG5leHQucGF5KTsKICAgIHNldFJlY2VpdmVJZChuZXh0LnJlY2VpdmUpOwogICAgc2V0QW1vdW50KCIiKTsKICAgIHNldFByZXBhcmVkKG51bGwpOwogICAgc2V0UXVvdGVFcnJvcigiIik7CiAgfTsKCiAgY29uc3QgZG9Td2FwID0gYXN5bmMgKCkgPT4gewogICAgaWYgKCF3YWxsZXQgfHwgIXByZXBhcmVkKSByZXR1cm47CiAgICBzZXRUeFBoYXNlKCJwcmVwYXJpbmciKTsKICAgIHNldFR4TWVzc2FnZSgiUHJlcGFyaW5nIHN3YXDigKYiKTsKICAgIHNldFR4SGFzaCgiIik7CiAgICBzZXRSZWNlaXZlZCgiIik7CiAgICB0cnkgewogICAgICBpZiAocHJlcGFyZWQuaXNFeHBpcmVkKCkpIHsKICAgICAgICBzZXRUeE1lc3NhZ2UoIlF1b3RlIGV4cGlyZWQsIHJlZnJlc2hpbmfigKYiKTsKICAgICAgICBhd2FpdCBwcmVwYXJlZC5yZWZyZXNoKCk7CiAgICAgIH0KICAgICAgc2V0VHhQaGFzZSgid2FpdGluZyIpOwogICAgICBzZXRUeE1lc3NhZ2UoIkNvbmZpcm0gdGhlIHRyYW5zYWN0aW9uIGluIHlvdXIgd2FsbGV04oCmIik7CiAgICAgIGNvbnN0IHJlc3VsdCA9IGF3YWl0IGV4ZWN1dGVTd2FwKHByZXBhcmVkLCB3YWxsZXQud2FsbGV0Q2xpZW50LCAoc3RhdHVzKSA9PiB7CiAgICAgICAgaWYgKHN0YXR1cy50eXBlID09PSAiYXBwcm92YWwtcmVxdWVzdGVkIikgc2V0VHhNZXNzYWdlKCJBcHByb3ZlIHRoZSB0b2tlbiBzcGVuZCBpbiB5b3VyIHdhbGxldOKApiIpOwogICAgICAgIGVsc2UgaWYgKHN0YXR1cy50eXBlID09PSAiYXBwcm92YWwtc3VibWl0dGVkIikgc2V0VHhNZXNzYWdlKCJBcHByb3ZhbCBzdWJtaXR0ZWQsIHdhaXRpbmcgZm9yIGNvbmZpcm1hdGlvbuKApiIpOwogICAgICAgIGVsc2UgaWYgKHN0YXR1cy50eXBlID09PSAiYXBwcm92YWwtY29uZmlybWVkIikgc2V0VHhNZXNzYWdlKCJBcHByb3ZhbCBjb25maXJtZWQsIHNlbmRpbmcgc3dhcOKApiIpOwogICAgICAgIGVsc2UgaWYgKHN0YXR1cy50eXBlID09PSAic3dhcC1yZXF1ZXN0ZWQiKSBzZXRUeE1lc3NhZ2UoIkNvbmZpcm0gdGhlIHN3YXAgaW4geW91ciB3YWxsZXTigKYiKTsKICAgICAgICBlbHNlIGlmIChzdGF0dXMudHlwZSA9PT0gInN3YXAtc3VibWl0dGVkIikgeyBzZXRUeE1lc3NhZ2UoIlN3YXAgc3VibWl0dGVkLCB3YWl0aW5nIGZvciBjb25maXJtYXRpb27igKYiKTsgc2V0VHhQaGFzZSgiY29uZmlybWluZyIpOyB9CiAgICAgICAgZWxzZSBpZiAoc3RhdHVzLnR5cGUgPT09ICJzd2FwLWNvbmZpcm1lZCIpIHNldFR4UGhhc2UoImNvbmZpcm1pbmciKTsKICAgICAgICBlbHNlIGlmIChzdGF0dXMudHlwZSA9PT0gInF1b3RlLXJlZnJlc2hlZCIpIHNldFR4TWVzc2FnZSgiUXVvdGUgcmVmcmVzaGVkLiIpOwogICAgICB9KTsKICAgICAgc2V0VHhIYXNoKHJlc3VsdC5oYXNoKTsKICAgICAgc2V0UmVjZWl2ZWQoCiAgICAgICAgcmVzdWx0LmFtb3VudFJlY2VpdmVkID09PSBudWxsCiAgICAgICAgICA/ICIiCiAgICAgICAgICA6IGZvcm1hdEFtb3VudChyZXN1bHQuYW1vdW50UmVjZWl2ZWQsIHJlY2VpdmVUb2tlbi5kZWNpbWFscyksCiAgICAgICk7CiAgICAgIHNldFR4UGhhc2UoImRvbmUiKTsKICAgICAgc2V0VHhNZXNzYWdlKCJTd2FwIGNvbmZpcm1lZC4iKTsKICAgICAgc2V0QW1vdW50KCIiKTsKICAgICAgc2V0UHJlcGFyZWQobnVsbCk7CiAgICAgIGF3YWl0IHJlZnJlc2hCYWxhbmNlcyh3YWxsZXQuYWRkcmVzcyk7CiAgICB9IGNhdGNoIChlKSB7CiAgICAgIHNldFR4UGhhc2UoImVycm9yIik7CiAgICAgIHNldFR4TWVzc2FnZShmcmllbmRseUVycm9yKGUpKTsKICAgIH0KICB9OwoKICBjb25zdCBjYW5Td2FwID0KICAgIHdhbGxldCAmJiB2YWxpZFBhaXIgJiYgYW1vdW50UmF3ICE9PSBudWxsICYmIGFtb3VudFJhdyA+IDBuICYmICFpbnN1ZmZpY2llbnQgJiYgISFwcmVwYXJlZCAmJiAhcXVvdGluZyAmJiB0eFBoYXNlICE9PSAid2FpdGluZyIgJiYgdHhQaGFzZSAhPT0gImNvbmZpcm1pbmciICYmIHR4UGhhc2UgIT09ICJwcmVwYXJpbmciOwoKICBjb25zdCBwcmljZUltcGFjdEJwcyA9IHF1b3RlID8gTnVtYmVyKHF1b3RlLnByaWNlSW1wYWN0QnBzKSA6IG51bGw7CgogIHJldHVybiAoCiAgICA8ZGl2IGNsYXNzTmFtZT0icGFnZSI+CiAgICAgIDxoZWFkZXIgY2xhc3NOYW1lPSJ0b3BiYXIiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJicmFuZCI+CiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImxvZ28iPkFNTU9SQTwvc3Bhbj4KICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGFnIj5Td2FwIMK3IHtDSEFJTl9OQU1FfSB0ZXN0bmV0PC9zcGFuPgogICAgICAgIDwvZGl2PgogICAgICAgIHt3YWxsZXQgPyAoCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0id2FsbGV0LWNoaXAiPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImRvdCIgLz4KICAgICAgICAgICAgPHNwYW4+e3Nob3J0QWRkcih3YWxsZXQuYWRkcmVzcyl9PC9zcGFuPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9Im5ldCI+e0NIQUlOX05BTUV9PC9zcGFuPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgKSA6ICgKICAgICAgICAgIDxidXR0b24gY2xhc3NOYW1lPSJidG4gcHJpbWFyeSIgb25DbGljaz17ZG9Db25uZWN0fSBkaXNhYmxlZD17Y29ubmVjdGluZ30+CiAgICAgICAgICAgIHtjb25uZWN0aW5nID8gIkNvbm5lY3RpbmfigKYiIDogIkNvbm5lY3Qgd2FsbGV0In0KICAgICAgICAgIDwvYnV0dG9uPgogICAgICAgICl9CiAgICAgIDwvaGVhZGVyPgoKICAgICAgPG1haW4gY2xhc3NOYW1lPSJtYWluIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY2FyZCI+CiAgICAgICAgICA8aDE+U3dhcDwvaDE+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InN1YiI+CiAgICAgICAgICAgIExpdmUgcXVvdGVzIGZyb20gdGhlIEFtbW9yYSBTREsgKHZ7U0RLX1ZFUlNJT059KSBvbiB7Q0hBSU5fTkFNRX0uIFRlc3RuZXQgb25seSDigJQgbm8gcmVhbCBmdW5kcy4KICAgICAgICAgIDwvcD4KCiAgICAgICAgICB7IXdhbGxldCAmJiAoCiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJub3RpY2UiPgogICAgICAgICAgICAgIENvbm5lY3QgTWV0YU1hc2sgKG9yIGFueSBpbmplY3RlZCBFVk0gd2FsbGV0KSB0byBnZXQgYSBsaXZlIHF1b3RlIGFuZCBzd2FwLiBZb3VyIGtleXMgbmV2ZXIgbGVhdmUgeW91ciB3YWxsZXQuCiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKX0KICAgICAgICAgIHtjb25uZWN0RXJyb3IgJiYgPGRpdiBjbGFzc05hbWU9ImVycm9yIj57Y29ubmVjdEVycm9yfTwvZGl2Pn0KCiAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJmaWVsZC1sYWJlbCI+WW91IHBheTwvbGFiZWw+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idG9rZW4tcm93Ij4KICAgICAgICAgICAgPHNlbGVjdCB2YWx1ZT17cGF5SWR9IG9uQ2hhbmdlPXsoZSkgPT4geyBzZXRQYXlJZChlLnRhcmdldC52YWx1ZSBhcyBUb2tlbklkKTsgc2V0QW1vdW50KCIiKTsgc2V0UHJlcGFyZWQobnVsbCk7IHNldFF1b3RlRXJyb3IoIiIpOyB9fSBhcmlhLWxhYmVsPSJQYXkgdG9rZW4iPgogICAgICAgICAgICAgIHsoT2JqZWN0LmtleXMoVE9LRU5TKSBhcyBUb2tlbklkW10pLm1hcCgoaWQpID0+ICgKICAgICAgICAgICAgICAgIDxvcHRpb24ga2V5PXtpZH0gdmFsdWU9e2lkfT57VE9LRU5TW2lkXS5zeW1ib2x9PC9vcHRpb24+CiAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgIDwvc2VsZWN0PgogICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICB2YWx1ZT17YW1vdW50fQogICAgICAgICAgICAgIG9uQ2hhbmdlPXsoZSkgPT4gc2V0QW1vdW50KGUudGFyZ2V0LnZhbHVlLnJlcGxhY2UoL1teMC05Ll0vZywgIiIpKX0KICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0iMC4wIgogICAgICAgICAgICAgIGlucHV0TW9kZT0iZGVjaW1hbCIKICAgICAgICAgICAgICBhcmlhLWxhYmVsPSJBbW91bnQgdG8gcGF5IgogICAgICAgICAgICAvPgogICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJtYXgtYnRuIgogICAgICAgICAgICAgIGRpc2FibGVkPXshcGF5QmFsYW5jZSB8fCBwYXlCYWxhbmNlID09PSAwbn0KICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBwYXlCYWxhbmNlICE9PSBudWxsICYmIHNldEFtb3VudChmb3JtYXRBbW91bnQocGF5QmFsYW5jZSwgcGF5VG9rZW4uZGVjaW1hbHMpKX0KICAgICAgICAgICAgPgogICAgICAgICAgICAgIE1BWAogICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJhbGFuY2UtbGluZSI+CiAgICAgICAgICAgIEJhbGFuY2U6IHtwYXlCYWxhbmNlID09PSBudWxsID8gIuKAlCIgOiBgJHtmb3JtYXRBbW91bnQocGF5QmFsYW5jZSwgcGF5VG9rZW4uZGVjaW1hbHMpfSAke3BheVRva2VuLnN5bWJvbH1gfQogICAgICAgICAgICB7aW5zdWZmaWNpZW50ICYmIDxzcGFuIGNsYXNzTmFtZT0id2FybiI+IMK3IEluc3VmZmljaWVudCBiYWxhbmNlPC9zcGFuPn0KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxidXR0b24gY2xhc3NOYW1lPSJmbGlwIiBvbkNsaWNrPXtmbGlwfSBkaXNhYmxlZD17IVBBSVJTLnNvbWUoKHApID0+IHAucGF5ID09PSByZWNlaXZlSWQgJiYgcC5yZWNlaXZlID09PSBwYXlJZCl9IGFyaWEtbGFiZWw9IkZsaXAgZGlyZWN0aW9uIj4KICAgICAgICAgICAg4oeFCiAgICAgICAgICA8L2J1dHRvbj4KCiAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJmaWVsZC1sYWJlbCI+WW91IHJlY2VpdmUgKGVzdGltYXRlZCk8L2xhYmVsPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRva2VuLXJvdyI+CiAgICAgICAgICAgIDxzZWxlY3QgdmFsdWU9e3JlY2VpdmVJZH0gb25DaGFuZ2U9eyhlKSA9PiB7IHNldFJlY2VpdmVJZChlLnRhcmdldC52YWx1ZSBhcyBUb2tlbklkKTsgc2V0QW1vdW50KCIiKTsgc2V0UHJlcGFyZWQobnVsbCk7IHNldFF1b3RlRXJyb3IoIiIpOyB9fSBhcmlhLWxhYmVsPSJSZWNlaXZlIHRva2VuIj4KICAgICAgICAgICAgICB7KE9iamVjdC5rZXlzKFRPS0VOUykgYXMgVG9rZW5JZFtdKS5tYXAoKGlkKSA9PiAoCiAgICAgICAgICAgICAgICA8b3B0aW9uIGtleT17aWR9IHZhbHVlPXtpZH0+e1RPS0VOU1tpZF0uc3ltYm9sfTwvb3B0aW9uPgogICAgICAgICAgICAgICkpfQogICAgICAgICAgICA8L3NlbGVjdD4KICAgICAgICAgICAgPGlucHV0CiAgICAgICAgICAgICAgdmFsdWU9e3F1b3RlID8gZm9ybWF0QW1vdW50KHF1b3RlLmV4cGVjdGVkQW1vdW50T3V0LCByZWNlaXZlVG9rZW4uZGVjaW1hbHMpIDogIiJ9CiAgICAgICAgICAgICAgcmVhZE9ubHkKICAgICAgICAgICAgICBwbGFjZWhvbGRlcj17cXVvdGluZyA/ICJRdW90aW5n4oCmIiA6ICIwLjAifQogICAgICAgICAgICAgIGFyaWEtbGFiZWw9IkVzdGltYXRlZCBhbW91bnQgcmVjZWl2ZWQiCiAgICAgICAgICAgIC8+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiYWxhbmNlLWxpbmUiPgogICAgICAgICAgICBCYWxhbmNlOiB7YmFsYW5jZU9mKHJlY2VpdmVJZCkgPT09IG51bGwgPyAi4oCUIiA6IGAke2Zvcm1hdEFtb3VudChiYWxhbmNlT2YocmVjZWl2ZUlkKSBhcyBiaWdpbnQsIHJlY2VpdmVUb2tlbi5kZWNpbWFscyl9ICR7cmVjZWl2ZVRva2VuLnN5bWJvbH1gfQogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgeyF2YWxpZFBhaXIgJiYgKAogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZXJyb3IiPgogICAgICAgICAgICAgIFRoaXMgcG9vbCBvbmx5IHN1cHBvcnRzIEVUSCDihpIgS0dQVCwgV0VUSCDihpIgS0dQVCBhbmQgS0dQVCDihpIgV0VUSC4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApfQogICAgICAgICAge3F1b3RlRXJyb3IgJiYgPGRpdiBjbGFzc05hbWU9ImVycm9yIj57cXVvdGVFcnJvcn08L2Rpdj59CiAgICAgICAgICB7cXVvdGluZyAmJiA8ZGl2IGNsYXNzTmFtZT0ibXV0ZWQiPkdldHRpbmcgbGl2ZSBxdW90ZeKApjwvZGl2Pn0KCiAgICAgICAgICB7cXVvdGUgJiYgKAogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icXVvdGUtYm94Ij4KICAgICAgICAgICAgICA8ZGl2PjxzcGFuPlJhdGU8L3NwYW4+PGI+MSB7cGF5VG9rZW4uc3ltYm9sfSDiiYgge2Ftb3VudFJhdyA9PT0gbnVsbCA/ICLigJQiIDogZm9ybWF0QW1vdW50KChxdW90ZS5leHBlY3RlZEFtb3VudE91dCAqIDEwbiAqKiBCaWdJbnQocGF5VG9rZW4uZGVjaW1hbHMpKSAvIGFtb3VudFJhdywgcmVjZWl2ZVRva2VuLmRlY2ltYWxzKX0ge3JlY2VpdmVUb2tlbi5zeW1ib2x9PC9iPjwvZGl2PgogICAgICAgICAgICAgIDxkaXY+PHNwYW4+TWluaW11bSByZWNlaXZlZDwvc3Bhbj48Yj57Zm9ybWF0QW1vdW50KHF1b3RlLm1pbmltdW1BbW91bnRPdXQsIHJlY2VpdmVUb2tlbi5kZWNpbWFscyl9IHtyZWNlaXZlVG9rZW4uc3ltYm9sfTwvYj48L2Rpdj4KICAgICAgICAgICAgICA8ZGl2PjxzcGFuPkZlZTwvc3Bhbj48Yj57cXVvdGUuZmVlQW1vdW50ID09PSBudWxsID8gIuKAlCIgOiBgJHtmb3JtYXRBbW91bnQocXVvdGUuZmVlQW1vdW50LCBwYXlUb2tlbi5kZWNpbWFscywgMTApfSAke3BheVRva2VuLnN5bWJvbH1gfTwvYj48L2Rpdj4KICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgPHNwYW4+UHJpY2UgaW1wYWN0PC9zcGFuPgogICAgICAgICAgICAgICAgPGIgY2xhc3NOYW1lPXtwcmljZUltcGFjdEJwcyAhPT0gbnVsbCAmJiBwcmljZUltcGFjdEJwcyA+IDUwMCA/ICJ3YXJuIiA6ICIifT4KICAgICAgICAgICAgICAgICAge3ByaWNlSW1wYWN0QnBzID09PSBudWxsID8gIuKAlCIgOiBgJHsocHJpY2VJbXBhY3RCcHMgLyAxMDApLnRvRml4ZWQoMil9JWB9CiAgICAgICAgICAgICAgICA8L2I+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGRpdj48c3Bhbj5TbGlwcGFnZTwvc3Bhbj48Yj57KHNsaXBwYWdlQnBzIC8gMTAwKS50b0ZpeGVkKDIpfSU8L2I+PC9kaXY+CiAgICAgICAgICAgICAgPGRpdj48c3Bhbj5Qb29sPC9zcGFuPjxiPjxhIGhyZWY9e2Ake0VYUExPUkVSX1VSTH0vYWRkcmVzcy8ke1BPT0xfQUREUkVTU31gfSB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub3JlZmVycmVyIj57c2hvcnRBZGRyKFBPT0xfQUREUkVTUyl9PC9hPjwvYj48L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApfQoKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzbGlwcGFnZS1yb3ciPgogICAgICAgICAgICA8c3Bhbj5TbGlwcGFnZSB0b2xlcmFuY2U8L3NwYW4+CiAgICAgICAgICAgIHtbMTAsIDUwLCAxMDBdLm1hcCgoYnBzKSA9PiAoCiAgICAgICAgICAgICAgPGJ1dHRvbiBrZXk9e2Jwc30gY2xhc3NOYW1lPXtzbGlwcGFnZUJwcyA9PT0gYnBzID8gInBpbGwgYWN0aXZlIiA6ICJwaWxsIn0gb25DbGljaz17KCkgPT4gc2V0U2xpcHBhZ2VCcHMoYnBzKX0+CiAgICAgICAgICAgICAgICB7KGJwcyAvIDEwMCkudG9GaXhlZCgxKX0lCiAgICAgICAgICAgICAgPC9idXR0b24+CiAgICAgICAgICAgICkpfQogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9ImJ0biBwcmltYXJ5IGJpZyIgb25DbGljaz17ZG9Td2FwfSBkaXNhYmxlZD17IWNhblN3YXB9PgogICAgICAgICAgICB7IXdhbGxldCA/ICJDb25uZWN0IHdhbGxldCB0byBzd2FwIiA6IHR4UGhhc2UgPT09ICJ3YWl0aW5nIiA/ICJDb25maXJtIGluIHdhbGxldOKApiIgOiB0eFBoYXNlID09PSAiY29uZmlybWluZyIgfHwgdHhQaGFzZSA9PT0gInByZXBhcmluZyIgPyAiU3dhcHBpbmfigKYiIDogIlN3YXAifQogICAgICAgICAgPC9idXR0b24+CgogICAgICAgICAge3R4UGhhc2UgPT09ICJkb25lIiAmJiB0eEhhc2ggJiYgKAogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3VjY2VzcyI+CiAgICAgICAgICAgICAgU3dhcCBjb25maXJtZWR7cmVjZWl2ZWQgPyBgIOKAlCByZWNlaXZlZCB+JHtyZWNlaXZlZH0gJHtyZWNlaXZlVG9rZW4uc3ltYm9sfWAgOiAiIn0ueyIgIn0KICAgICAgICAgICAgICA8YSBocmVmPXtgJHtFWFBMT1JFUl9VUkx9L3R4LyR7dHhIYXNofWB9IHRhcmdldD0iX2JsYW5rIiByZWw9Im5vcmVmZXJyZXIiPlZpZXcgb24gZXhwbG9yZXI8L2E+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgKX0KICAgICAgICAgIHt0eFBoYXNlID09PSAiZXJyb3IiICYmIDxkaXYgY2xhc3NOYW1lPSJlcnJvciI+e3R4TWVzc2FnZX08L2Rpdj59CiAgICAgICAgICB7KHR4UGhhc2UgPT09ICJ3YWl0aW5nIiB8fCB0eFBoYXNlID09PSAiY29uZmlybWluZyIgfHwgdHhQaGFzZSA9PT0gInByZXBhcmluZyIpICYmICgKICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im11dGVkIj57dHhNZXNzYWdlfTwvZGl2PgogICAgICAgICAgKX0KCiAgICAgICAgICB7d2FsbGV0ICYmIGJhbGFuY2VzICE9PSBudWxsICYmIGJhbGFuY2VzLmV0aCA9PT0gMG4gJiYgKAogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibm90aWNlIj4KICAgICAgICAgICAgICBZb3UgaGF2ZSBubyB0ZXN0bmV0IEVUSCBmb3IgZ2FzLiBHZXQgZnJlZSB0ZXN0bmV0IEVUSCBmcm9tIHRoZXsiICJ9CiAgICAgICAgICAgICAgPGEgaHJlZj17RkFVQ0VUX1VSTH0gdGFyZ2V0PSJfYmxhbmsiIHJlbD0ibm9yZWZlcnJlciI+R0lXQSBTZXBvbGlhIGZhdWNldDwvYT4KICAgICAgICAgICAgICB7IiAifShiYWNrdXA6IDxhIGhyZWY9e0ZBVUNFVF9CQUNLVVBfVVJMfSB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub3JlZmVycmVyIj5Ob2RpdCBmYXVjZXQ8L2E+KS4gTmV2ZXIgcGF5IGZvciB0ZXN0bmV0IEVUSCBhbmQgbmV2ZXIgc2hhcmUgeW91ciBzZWVkIHBocmFzZS4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICApfQogICAgICAgIDwvZGl2PgoKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iaW5mbyI+CiAgICAgICAgICA8aDI+QWJvdXQgdGhpcyBwb29sPC9oMj4KICAgICAgICAgIDxwPgogICAgICAgICAgICBPbmUgdmVyaWZpZWQgY29uY2VudHJhdGVkIHBvb2wgKFdFVEgg4oaUIEtHUFQpIG9uIHtDSEFJTl9OQU1FfS4gSXQgaXMgbGl2ZSBidXQgdGhpbgogICAgICAgICAgICAoYWJvdXQgMC4wMDEgV0VUSCBpbiByZXNlcnZlKSwgc28gc3dhcHMgbXVzdCBzdGF5IHNtYWxsIOKAlCB0aGUgU0RLIHJlZnVzZXMKICAgICAgICAgICAgb3ZlcnNpemVkIGFtb3VudHMgd2l0aCBhIHByaWNlLXJhbmdlIGVycm9yLiBBbW91bnRzIGFyb3VuZCAwLjAwMDAwMSBXRVRIIHF1b3RlIGZpbmUuCiAgICAgICAgICA8L3A+CiAgICAgICAgICA8cD4KICAgICAgICAgICAgS0dQVCBpcyBhIHBhcnRuZXIgdGVzdCB0b2tlbiAoOSBkZWNpbWFscykuIFdFVEggaXMgdGhlIHdyYXBwZWQgbmF0aXZlIHRva2VuCiAgICAgICAgICAgICgweDQyMDDigKYwMDA2KS4gUGF5aW5nIHdpdGggRVRIIHdyYXBzIGl0IHRvIFdFVEggYXV0b21hdGljYWxseTsgbm8gYXBwcm92YWwgaXMgbmVlZGVkCiAgICAgICAgICAgIGZvciBuYXRpdmUgRVRILCB3aGlsZSBXRVRIL0tHUFQgYXBwcm92YWxzIGFyZSBoYW5kbGVkIGJ5IHRoZSBzd2FwIGl0c2VsZi4KICAgICAgICAgIDwvcD4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0ibXV0ZWQiPgogICAgICAgICAgICBCdWlsdCB3aXRoIEBhbW1vcmEtcHJvdG9jb2wvc2RrQHtTREtfVkVSU0lPTn0uIFRlc3RuZXQgb25seSDigJQgdG9rZW5zIGhlcmUgaGF2ZSBubyB2YWx1ZS4KICAgICAgICAgIDwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgPC9tYWluPgoKICAgICAgPGZvb3RlciBjbGFzc05hbWU9ImZvb3RlciI+CiAgICAgICAgPHNwYW4+QU1NT1JBIFN3YXAgwrcge0NIQUlOX05BTUV9ICg5MTM0MikgwrcgU0RLIHtTREtfVkVSU0lPTn08L3NwYW4+CiAgICAgICAgPHNwYW4+CiAgICAgICAgICA8YSBocmVmPXtFWFBMT1JFUl9VUkx9IHRhcmdldD0iX2JsYW5rIiByZWw9Im5vcmVmZXJyZXIiPkV4cGxvcmVyPC9hPiDCt3siICJ9CiAgICAgICAgICA8YSBocmVmPXtGQVVDRVRfVVJMfSB0YXJnZXQ9Il9ibGFuayIgcmVsPSJub3JlZmVycmVyIj5GYXVjZXQ8L2E+CiAgICAgICAgPC9zcGFuPgogICAgICA8L2Zvb3Rlcj4KICAgIDwvZGl2PgogICk7Cn0K
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import type { Address } from "viem";
+import {
+  CHAIN_NAME,
+  DEFAULT_SLIPPAGE_BPS,
+  EXPLORER_URL,
+  FAUCET_URL,
+  FAUCET_BACKUP_URL,
+  PAIRS,
+  POOL_ADDRESS,
+  SDK_VERSION,
+  TOKENS,
+  connectWallet,
+  executeSwap,
+  formatAmount,
+  friendlyError,
+  getBalances,
+  parseAmount,
+  prepareQuote,
+  type Balances,
+  type PreparedSwap,
+  type TokenId,
+  type WalletConnection,
+} from "./ammora";
+
+type TxPhase = "idle" | "preparing" | "waiting" | "confirming" | "done" | "error";
+
+function shortAddr(a: string) {
+  return `${a.slice(0, 6)}...${a.slice(-4)}`;
+}
+
+export default function App() {
+  const [wallet, setWallet] = useState<WalletConnection | null>(null);
+  const [balances, setBalances] = useState<Balances | null>(null);
+  const [connecting, setConnecting] = useState(false);
+  const [connectError, setConnectError] = useState("");
+
+  const [payId, setPayId] = useState<TokenId>("ETH");
+  const [receiveId, setReceiveId] = useState<TokenId>("KGPT");
+  const [amount, setAmount] = useState("");
+  const [slippageBps, setSlippageBps] = useState(DEFAULT_SLIPPAGE_BPS);
+
+  const [prepared, setPrepared] = useState<PreparedSwap | null>(null);
+  const [quoteError, setQuoteError] = useState("");
+  const [quoting, setQuoting] = useState(false);
+
+  const [txPhase, setTxPhase] = useState<TxPhase>("idle");
+  const [txHash, setTxHash] = useState("");
+  const [txMessage, setTxMessage] = useState("");
+  const [received, setReceived] = useState("");
+
+  const quoteTimer = useRef<number | null>(null);
+  const quoteSeq = useRef(0);
+
+  const payToken = TOKENS[payId];
+  const receiveToken = TOKENS[receiveId];
+
+  const balanceOf = useCallback(
+    (id: TokenId): bigint | null => {
+      if (!balances) return null;
+      if (id === "ETH") return balances.eth;
+      if (id === "WETH") return balances.weth;
+      return balances.kgpt;
+    },
+    [balances],
+  );
+
+  const payBalance = balanceOf(payId);
+  const amountRaw = useMemo(
+    () => (amount ? parseAmount(amount, payToken.decimals) : null),
+    [amount, payToken.decimals],
+  );
+  const insufficient = amountRaw !== null && payBalance !== null && amountRaw > payBalance;
+  const validPair = PAIRS.some((p) => p.pay === payId && p.receive === receiveId);
+
+  const refreshBalances = useCallback(async (address: Address) => {
+    try {
+      setBalances(await getBalances(address));
+    } catch {
+      // Balances are a convenience; a failed read must not break the swap.
+    }
+  }, []);
+
+  const doConnect = useCallback(async () => {
+    setConnecting(true);
+    setConnectError("");
+    try {
+      const conn = await connectWallet();
+      setWallet(conn);
+      await refreshBalances(conn.address);
+    } catch (e) {
+      setConnectError(friendlyError(e));
+    } finally {
+      setConnecting(false);
+    }
+  }, [refreshBalances]);
+
+  // Keep balances fresh while connected.
+  useEffect(() => {
+    if (!wallet) return;
+    const t = window.setInterval(() => refreshBalances(wallet.address), 15000);
+    return () => window.clearInterval(t);
+  }, [wallet, refreshBalances]);
+
+  // Debounced live quote whenever the pay token, receive token, amount or
+  // slippage changes. A quote is a read-only SDK call; nothing is signed.
+  useEffect(() => {
+    setPrepared(null);
+    setQuoteError("");
+    if (quoteTimer.current) window.clearTimeout(quoteTimer.current);
+    if (!wallet || !validPair || amountRaw === null || amountRaw <= 0n || insufficient) return;
+    setQuoting(true);
+    const seq = ++quoteSeq.current;
+    quoteTimer.current = window.setTimeout(async () => {
+      try {
+        const p = await prepareQuote({
+          pay: payId,
+          receive: receiveId,
+          amountIn: amountRaw,
+          payer: wallet.address,
+          slippageBps,
+        });
+        if (quoteSeq.current !== seq) return;
+        setPrepared(p);
+        setQuoteError("");
+      } catch (e) {
+        if (quoteSeq.current !== seq) return;
+        setQuoteError(friendlyError(e));
+      } finally {
+        if (quoteSeq.current === seq) setQuoting(false);
+      }
+    }, 450);
+    return () => {
+      if (quoteTimer.current) window.clearTimeout(quoteTimer.current);
+    };
+  }, [wallet, validPair, amountRaw, insufficient, payId, receiveId, slippageBps]);
+
+  const quote = prepared?.quote;
+  const flip = () => {
+    // Only flip to a pair this pool supports.
+    const next = PAIRS.find((p) => p.pay === receiveId && p.receive === payId);
+    if (!next) return;
+    setPayId(next.pay);
+    setReceiveId(next.receive);
+    setAmount("");
+    setPrepared(null);
+    setQuoteError("");
+  };
+
+  const doSwap = async () => {
+    if (!wallet || !prepared) return;
+    setTxPhase("preparing");
+    setTxMessage("Preparing swap…");
+    setTxHash("");
+    setReceived("");
+    try {
+      if (prepared.isExpired()) {
+        setTxMessage("Quote expired, refreshing…");
+        await prepared.refresh();
+      }
+      setTxPhase("waiting");
+      setTxMessage("Confirm the transaction in your wallet…");
+      const result = await executeSwap(prepared, wallet.walletClient, (status) => {
+        if (status.type === "approval-requested") setTxMessage("Approve the token spend in your wallet…");
+        else if (status.type === "approval-submitted") setTxMessage("Approval submitted, waiting for confirmation…");
+        else if (status.type === "approval-confirmed") setTxMessage("Approval confirmed, sending swap…");
+        else if (status.type === "swap-requested") setTxMessage("Confirm the swap in your wallet…");
+        else if (status.type === "swap-submitted") { setTxMessage("Swap submitted, waiting for confirmation…"); setTxPhase("confirming"); }
+        else if (status.type === "swap-confirmed") setTxPhase("confirming");
+        else if (status.type === "quote-refreshed") setTxMessage("Quote refreshed.");
+      });
+      setTxHash(result.hash);
+      setReceived(
+        result.amountReceived === null
+          ? ""
+          : formatAmount(result.amountReceived, receiveToken.decimals),
+      );
+      setTxPhase("done");
+      setTxMessage("Swap confirmed.");
+      setAmount("");
+      setPrepared(null);
+      await refreshBalances(wallet.address);
+    } catch (e) {
+      setTxPhase("error");
+      setTxMessage(friendlyError(e));
+    }
+  };
+
+  const canSwap =
+    wallet && validPair && amountRaw !== null && amountRaw > 0n && !insufficient && !!prepared && !quoting && txPhase !== "waiting" && txPhase !== "confirming" && txPhase !== "preparing";
+
+  const priceImpactBps = quote ? Number(quote.priceImpactBps) : null;
+
+  return (
+    <div className="page">
+      <header className="topbar">
+        <div className="brand">
+          <span className="logo">AMMORA</span>
+          <span className="tag">Swap · {CHAIN_NAME} testnet</span>
+        </div>
+        {wallet ? (
+          <div className="wallet-chip">
+            <span className="dot" />
+            <span>{shortAddr(wallet.address)}</span>
+            <span className="net">{CHAIN_NAME}</span>
+          </div>
+        ) : (
+          <button className="btn primary" onClick={doConnect} disabled={connecting}>
+            {connecting ? "Connecting…" : "Connect wallet"}
+          </button>
+        )}
+      </header>
+
+      <main className="main">
+        <div className="card">
+          <h1>Swap</h1>
+          <p className="sub">
+            Live quotes from the Ammora SDK (v{SDK_VERSION}) on {CHAIN_NAME}. Testnet only — no real funds.
+          </p>
+
+          {!wallet && (
+            <div className="notice">
+              Connect MetaMask (or any injected EVM wallet) to get a live quote and swap. Your keys never leave your wallet.
+            </div>
+          )}
+          {connectError && <div className="error">{connectError}</div>}
+
+          <label className="field-label">You pay</label>
+          <div className="token-row">
+            <select value={payId} onChange={(e) => { setPayId(e.target.value as TokenId); setAmount(""); setPrepared(null); setQuoteError(""); }} aria-label="Pay token">
+              {(Object.keys(TOKENS) as TokenId[]).map((id) => (
+                <option key={id} value={id}>{TOKENS[id].symbol}</option>
+              ))}
+            </select>
+            <input
+              value={amount}
+              onChange={(e) => setAmount(e.target.value.replace(/[^0-9.]/g, ""))}
+              placeholder="0.0"
+              inputMode="decimal"
+              aria-label="Amount to pay"
+            />
+            <button
+              className="max-btn"
+              disabled={!payBalance || payBalance === 0n}
+              onClick={() => payBalance !== null && setAmount(formatAmount(payBalance, payToken.decimals))}
+            >
+              MAX
+            </button>
+          </div>
+          <div className="balance-line">
+            Balance: {payBalance === null ? "—" : `${formatAmount(payBalance, payToken.decimals)} ${payToken.symbol}`}
+            {insufficient && <span className="warn"> · Insufficient balance</span>}
+          </div>
+
+          <button className="flip" onClick={flip} disabled={!PAIRS.some((p) => p.pay === receiveId && p.receive === payId)} aria-label="Flip direction">
+            ⇅
+          </button>
+
+          <label className="field-label">You receive (estimated)</label>
+          <div className="token-row">
+            <select value={receiveId} onChange={(e) => { setReceiveId(e.target.value as TokenId); setAmount(""); setPrepared(null); setQuoteError(""); }} aria-label="Receive token">
+              {(Object.keys(TOKENS) as TokenId[]).map((id) => (
+                <option key={id} value={id}>{TOKENS[id].symbol}</option>
+              ))}
+            </select>
+            <input
+              value={quote ? formatAmount(quote.expectedAmountOut, receiveToken.decimals) : ""}
+              readOnly
+              placeholder={quoting ? "Quoting…" : "0.0"}
+              aria-label="Estimated amount received"
+            />
+          </div>
+          <div className="balance-line">
+            Balance: {balanceOf(receiveId) === null ? "—" : `${formatAmount(balanceOf(receiveId) as bigint, receiveToken.decimals)} ${receiveToken.symbol}`}
+          </div>
+
+          {!validPair && (
+            <div className="error">
+              This pool only supports ETH → KGPT, WETH → KGPT and KGPT → WETH.
+            </div>
+          )}
+          {quoteError && <div className="error">{quoteError}</div>}
+          {quoting && <div className="muted">Getting live quote…</div>}
+
+          {quote && (
+            <div className="quote-box">
+              <div><span>Rate</span><b>1 {payToken.symbol} ≈ {amountRaw === null ? "—" : formatAmount((quote.expectedAmountOut * 10n ** BigInt(payToken.decimals)) / amountRaw, receiveToken.decimals)} {receiveToken.symbol}</b></div>
+              <div><span>Minimum received</span><b>{formatAmount(quote.minimumAmountOut, receiveToken.decimals)} {receiveToken.symbol}</b></div>
+              <div><span>Fee</span><b>{quote.feeAmount === null ? "—" : `${formatAmount(quote.feeAmount, payToken.decimals, 10)} ${payToken.symbol}`}</b></div>
+              <div>
+                <span>Price impact</span>
+                <b className={priceImpactBps !== null && priceImpactBps > 500 ? "warn" : ""}>
+                  {priceImpactBps === null ? "—" : `${(priceImpactBps / 100).toFixed(2)}%`}
+                </b>
+              </div>
+              <div><span>Slippage</span><b>{(slippageBps / 100).toFixed(2)}%</b></div>
+              <div><span>Pool</span><b><a href={`${EXPLORER_URL}/address/${POOL_ADDRESS}`} target="_blank" rel="noreferrer">{shortAddr(POOL_ADDRESS)}</a></b></div>
+            </div>
+          )}
+
+          <div className="slippage-row">
+            <span>Slippage tolerance</span>
+            {[10, 50, 100].map((bps) => (
+              <button key={bps} className={slippageBps === bps ? "pill active" : "pill"} onClick={() => setSlippageBps(bps)}>
+                {(bps / 100).toFixed(1)}%
+              </button>
+            ))}
+          </div>
+
+          <button className="btn primary big" onClick={doSwap} disabled={!canSwap}>
+            {!wallet ? "Connect wallet to swap" : txPhase === "waiting" ? "Confirm in wallet…" : txPhase === "confirming" || txPhase === "preparing" ? "Swapping…" : "Swap"}
+          </button>
+
+          {txPhase === "done" && txHash && (
+            <div className="success">
+              Swap confirmed{received ? ` — received ~${received} ${receiveToken.symbol}` : ""}.{" "}
+              <a href={`${EXPLORER_URL}/tx/${txHash}`} target="_blank" rel="noreferrer">View on explorer</a>
+            </div>
+          )}
+          {txPhase === "error" && <div className="error">{txMessage}</div>}
+          {(txPhase === "waiting" || txPhase === "confirming" || txPhase === "preparing") && (
+            <div className="muted">{txMessage}</div>
+          )}
+
+          {wallet && balances !== null && balances.eth === 0n && (
+            <div className="notice">
+              You have no testnet ETH for gas. Get free testnet ETH from the{" "}
+              <a href={FAUCET_URL} target="_blank" rel="noreferrer">GIWA Sepolia faucet</a>
+              {" "}(backup: <a href={FAUCET_BACKUP_URL} target="_blank" rel="noreferrer">Nodit faucet</a>). Never pay for testnet ETH and never share your seed phrase.
+            </div>
+          )}
+        </div>
+
+        <div className="info">
+          <h2>About this pool</h2>
+          <p>
+            One verified concentrated pool (WETH ↔ KGPT) on {CHAIN_NAME}. It is live but thin
+            (about 0.001 WETH in reserve), so swaps must stay small — the SDK refuses
+            oversized amounts with a price-range error. Amounts around 0.000001 WETH quote fine.
+          </p>
+          <p>
+            KGPT is a partner test token (9 decimals). WETH is the wrapped native token
+            (0x4200…0006). Paying with ETH wraps it to WETH automatically; no approval is needed
+            for native ETH, while WETH/KGPT approvals are handled by the swap itself.
+          </p>
+          <p className="muted">
+            Built with @ammora-protocol/sdk@{SDK_VERSION}. Testnet only — tokens here have no value.
+          </p>
+        </div>
+      </main>
+
+      <footer className="footer">
+        <span>AMMORA Swap · {CHAIN_NAME} (91342) · SDK {SDK_VERSION}</span>
+        <span>
+          <a href={EXPLORER_URL} target="_blank" rel="noreferrer">Explorer</a> ·{" "}
+          <a href={FAUCET_URL} target="_blank" rel="noreferrer">Faucet</a>
+        </span>
+      </footer>
+    </div>
+  );
+}
